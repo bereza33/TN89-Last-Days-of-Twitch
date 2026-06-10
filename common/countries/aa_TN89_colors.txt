@@ -1,8 +1,0 @@
-ZUS = {
-	color = rgb { 74 80 89 }
-	color_ui = rgb { 74 80 89 }
-}
-BRT = {
-	color = rgb { 255 209 49 }
-	color_ui = rgb { 255 209 49 }
-}

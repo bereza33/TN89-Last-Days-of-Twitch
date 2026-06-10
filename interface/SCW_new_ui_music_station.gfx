@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = GFX_SCW_musicplayer_track
-		textureFile = "gfx/interface/new_ui/new_ui_musicplayer_track.dds"
-	}
-}
