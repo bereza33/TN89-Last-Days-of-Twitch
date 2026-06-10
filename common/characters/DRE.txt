@@ -1,0 +1,16 @@
+characters = {
+    DRE_Drake = {
+        name=ch_Drake
+        portraits={
+            civilian = {
+                large="GFX_portrait_DRE_Drake"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = DRE_desc
+        }
+    }
+}

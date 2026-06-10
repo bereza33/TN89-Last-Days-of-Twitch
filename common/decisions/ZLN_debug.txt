@@ -1,0 +1,88 @@
+ZLN_debug = {
+    ZLN_change_portrait_0_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = ZLN }
+        visible = { tag = ZLN is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = ZLN_Zloyn
+                civilian = { large ="GFX_portrait_ZLN_Zloyn" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    ZLN_change_portrait_1_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = ZLN }
+        visible = { tag = ZLN is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = ZLN_Zloyn
+                civilian = { large ="GFX_portrait_ZLN_Zloyn_alt_1" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    ZLN_change_portrait_2_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = ZLN }
+        visible = { tag = ZLN is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = ZLN_Zloyn
+                civilian = { large ="GFX_portrait_ZLN_Zloyn_alt_2" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    ZLN_change_portrait_3_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = ZLN }
+        visible = { tag = ZLN is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = ZLN_Zloyn
+                civilian = { large ="GFX_portrait_ZLN_Zloyn_alt_3" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    ZLN_change_portrait_4_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = ZLN }
+        visible = { tag = ZLN is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = ZLN_Zloyn
+                civilian = { large ="GFX_portrait_ZLN_Zloyn_alt_4" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+}

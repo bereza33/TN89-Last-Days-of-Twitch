@@ -1,0 +1,27 @@
+state={
+	id=1198
+	name="Barda"
+
+	history={
+		owner = LRB
+	add_core_of = LRB
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = {
+			11674 1 
+		}
+
+		#add_core_of = SOV
+		#add_core_of = AZR
+		
+	}
+
+	provinces={
+		1539 1610 11674 11704 
+	}
+	manpower=543543
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

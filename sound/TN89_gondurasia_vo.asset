@@ -1,0 +1,60 @@
+category = {
+	name = "Voices"
+ 	soundeffects = {
+		STN_infantry_idle
+		STN_infantry_neutral_combat
+		STN_infantry_positive_combat
+		STN_infantry_retreat
+		STN_infantry_move_out
+ 	}
+}
+
+sound = { name = "stn_idle_001"         file = "stn/STN_idle_001.wav" }
+sound = { name = "stn_idle_002"         file = "stn/STN_idle_002.wav" }
+sound = { name = "stn_move_out_001"         file = "stn/STN_move_out_001.wav" }
+sound = { name = "stn_neutral_combat_001"         file = "stn/STN_neutral_combat_001.wav" }
+sound = { name = "stn_neutral_combat_002"         file = "stn/STN_neutral_combat_002.wav" }
+sound = { name = "stn_neutral_combat_003"         file = "stn/STN_neutral_combat_003.wav" }
+sound = { name = "stn_positive_combat_001"         file = "stn/STN_positive_combat_001.wav" }
+sound = { name = "stn_positive_combat_002"         file = "stn/STN_positive_combat_002.wav" }
+sound = { name = "stn_positive_combat_003"         file = "stn/STN_positive_combat_003.wav" }
+sound = { name = "stn_retreat_001"         file = "stn/STN_retreat_001.wav" }
+sound = { name = "stn_retreat_002"         file = "stn/STN_retreat_002.wav" }
+
+
+soundeffect = {
+	name = "STN_infantry_idle"
+	sounds = {
+		sound = "stn_idle_001"
+		sound = "stn_idle_002"
+	}
+}
+soundeffect = {
+	name = "STN_infantry_move_out"
+	sounds = {
+		sound = "stn_move_out_001"
+	}
+}
+soundeffect = {
+	name = "STN_infantry_neutral_combat"
+	sounds = {
+		sound = "stn_neutral_combat_001"
+		sound = "stn_neutral_combat_002"
+		sound = "stn_neutral_combat_003"
+	}
+}
+soundeffect = {
+	name = "STN_infantry_positive_combat"
+	sounds = {
+		sound = "stn_positive_combat_001"
+		sound = "stn_positive_combat_002"
+		sound = "stn_positive_combat_003"
+	}
+}
+soundeffect = {
+	name = "STN_infantry_retreat"
+	sounds = {
+		sound = "stn_retreat_001"
+		sound = "stn_retreat_002"
+	}
+}

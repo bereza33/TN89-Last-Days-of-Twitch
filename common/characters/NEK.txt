@@ -1,0 +1,16 @@
+characters = {
+    NEK_Nekoglay = {
+        name=ch_Nekoglay
+        portraits={
+            civilian = {
+                large="GFX_portrait_NEK_Nekoglay"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = NEK_desc
+        }
+    }
+}

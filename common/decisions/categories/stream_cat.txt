@@ -1,0 +1,15 @@
+stream_cat = {
+    scripted_gui = pie_container_gui
+	icon = GFX_decision_stream
+    priority = 13
+    allowed = { always = yes }
+    visible_when_empty = yes
+}
+audience_cat = {
+	icon = GFX_decision_stream
+    priority = 12
+    allowed = { always = yes }
+    visible_when_empty = yes
+}
+
+    

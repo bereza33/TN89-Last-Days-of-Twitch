@@ -1,0 +1,88 @@
+BUS_debug = {
+    BUS_change_portrait_0_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = BUS }
+        visible = { tag = BUS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = BUS_Buster
+                civilian = { large ="GFX_portrait_BUS_Buster" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    BUS_change_portrait_1_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = BUS }
+        visible = { tag = BUS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = BUS_Buster
+                civilian = { large ="GFX_portrait_BUS_Buster_alt_1" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    BUS_change_portrait_2_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = BUS }
+        visible = { tag = BUS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = BUS_Buster
+                civilian = { large ="GFX_portrait_BUS_Buster_alt_2" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    BUS_change_portrait_3_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = BUS }
+        visible = { tag = BUS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = BUS_Buster
+                civilian = { large ="GFX_portrait_BUS_Buster_alt_3" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    BUS_change_portrait_4_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = BUS }
+        visible = { tag = BUS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = BUS_Buster
+                civilian = { large ="GFX_portrait_BUS_Buster_alt_4" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+}

@@ -1,0 +1,16 @@
+characters = {
+    PWG_Pwgood = {
+        name=ch_Pwgood
+        portraits={
+            civilian = {
+                large="GFX_portrait_PWG_Pwgood"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = PWG_desc
+        }
+    }
+}

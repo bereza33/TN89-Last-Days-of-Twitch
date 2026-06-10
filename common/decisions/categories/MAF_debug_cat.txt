@@ -1,0 +1,11 @@
+MAF_debug = {
+    icon = GFX_decision_category_border_conflicts
+    allowed = {
+        original_tag = MAF
+        is_debug = yes
+    }
+
+    visible = {
+        original_tag = MAF
+    }
+}

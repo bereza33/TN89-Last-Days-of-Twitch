@@ -1,0 +1,16 @@
+characters = {
+    PCH_Pchelkin = {
+        name=ch_Pchelkin
+        portraits={
+            civilian = {
+                large="GFX_portrait_PCH_Pchelkin"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = PCH_desc
+        }
+    }
+}

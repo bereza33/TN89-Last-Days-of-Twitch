@@ -1,0 +1,22 @@
+state={
+	id=1260
+	name="Hisn"
+	
+	history={
+		#add_core_of = SAU
+		#add_core_of = YEM
+		owner = ZUS
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	
+	provinces={
+		5093 10870
+	}
+	manpower=5311
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

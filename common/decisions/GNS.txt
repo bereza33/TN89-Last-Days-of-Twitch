@@ -1,0 +1,285 @@
+GNS_form_cat = {
+    GNS_form_empire = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+        	base = 20
+    	}
+        allowed = {
+			original_tag = GNS
+		}
+	
+		available = {
+			is_subject = no
+			# --- GNS ---
+			custom_trigger_tooltip = {
+				tooltip = GNS_reform_XX_GNS
+				controls_state = 14
+				controls_state = 15
+				controls_state = 16
+				controls_state = 19
+				controls_state = 20
+				controls_state = 23
+				controls_state = 24
+				controls_state = 25
+				controls_state = 26
+				controls_state = 27
+				controls_state = 30
+				controls_state = 33
+			}
+
+			# --- ARI ---
+			custom_trigger_tooltip = {
+				tooltip = GNS_reform_XX_ARI
+				controls_state = 6
+				controls_state = 18
+				controls_state = 29
+				controls_state = 34
+				controls_state = 785
+				controls_state = 980
+				controls_state = 1047
+				controls_state = 1059
+				controls_state = 1063
+				controls_state = 1091
+				controls_state = 1123
+				controls_state = 1125
+				controls_state = 1134
+				controls_state = 1136
+				controls_state = 1156
+				controls_state = 1280
+				controls_state = 1289
+			}
+
+			# --- TND ---
+			custom_trigger_tooltip = {
+				tooltip = GNS_reform_XX_TND
+				controls_state = 42
+				controls_state = 51
+				controls_state = 1066
+				controls_state = 1067
+				controls_state = 1124
+				controls_state = 1209
+			}
+
+			# --- SCS ---
+			custom_trigger_tooltip = {
+				tooltip = GNS_reform_XX_SCS
+				controls_state = 8
+				controls_state = 17
+				controls_state = 28
+				controls_state = 845
+				controls_state = 1065
+				controls_state = 1122
+				controls_state = 1157
+				controls_state = 1213
+				controls_state = 1281
+			}
+
+			# --- GCK ---
+			custom_trigger_tooltip = {
+				tooltip = GNS_reform_XX_GCK
+				controls_state = 3
+				controls_state = 50
+				controls_state = 978
+				controls_state = 1121
+				controls_state = 1238
+			}
+
+			# --- DNB ---
+			custom_trigger_tooltip = {
+				tooltip = GNS_reform_XX_DNB
+				controls_state = 1
+				controls_state = 21
+				controls_state = 32
+				controls_state = 851
+				controls_state = 1215
+			}
+
+			# --- NEL ---
+			custom_trigger_tooltip = {
+				tooltip = GNS_reform_XX_NEL
+				controls_state = 22
+				controls_state = 31
+				controls_state = 118
+				controls_state = 165
+				controls_state = 166
+				controls_state = 167
+				controls_state = 172
+				controls_state = 177
+				controls_state = 794
+				controls_state = 806
+				controls_state = 1154
+			}
+
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1
+				state = 3
+				state = 6
+				state = 8
+				state = 14
+				state = 15
+				state = 16
+				state = 17
+				state = 18
+				state = 19
+				state = 20
+				state = 21
+				state = 22
+				state = 23
+				state = 24
+				state = 25
+				state = 26
+				state = 27
+				state = 28
+				state = 29
+				state = 30
+				state = 31
+				state = 32
+				state = 33
+				state = 34
+				state = 42
+				state = 50
+				state = 51
+				state = 118
+				state = 165
+				state = 166
+				state = 167
+				state = 172
+				state = 177
+				state = 785
+				state = 794
+				state = 806
+				state = 845
+				state = 851
+				state = 978
+				state = 980
+				state = 1047
+				state = 1059
+				state = 1063
+				state = 1065
+				state = 1066
+				state = 1067
+				state = 1091
+				state = 1121
+				state = 1122
+				state = 1123
+				state = 1124
+				state = 1125
+				state = 1134
+				state = 1136
+				state = 1154
+				state = 1156
+				state = 1157
+				state = 1209
+				state = 1213
+				state = 1215
+				state = 1238
+				state = 1280
+				state = 1281
+				state = 1289
+			}
+		}
+	
+		visible = {
+			original_tag = GNS
+		}
+        complete_effect ={
+			hidden_effect = {
+			custom_effect_tooltip = GNS_form_empire_effect
+			GNS = { every_owned_state = { add_core_of = GNS } }
+
+			}
+            set_cosmetic_tag = GNS_empire
+        }
+    }
+	GNS_war_ARI = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			ARI = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	GNS_war_TND = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			TND = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	GNS_war_SCS = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			SCS = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	GNS_war_EXD = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			EXD = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	GNS_war_GCK = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			GCK = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	GNS_war_DNB = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			DNB = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	GNS_war_NEL = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			NEL = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+}

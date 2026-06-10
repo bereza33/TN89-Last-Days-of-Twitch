@@ -1,0 +1,127 @@
+STN_form_cat = {
+    STN_reform_empire = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+        	base = 20
+    	}
+        allowed = {
+			original_tag = STN
+		}
+	
+		available = {
+			is_subject = no
+			# --- STN ---
+			custom_trigger_tooltip = {
+				tooltip = STN_reform_XX_STN
+				controls_state = 41
+				controls_state = 112
+				controls_state = 168
+				controls_state = 169
+				controls_state = 170
+				controls_state = 171
+				controls_state = 173
+				controls_state = 174
+				controls_state = 175
+				controls_state = 176
+				controls_state = 178
+				controls_state = 179
+				controls_state = 180
+				controls_state = 181
+				controls_state = 697
+				controls_state = 698
+				controls_state = 783
+				controls_state = 788
+				controls_state = 789
+				controls_state = 790
+				controls_state = 791
+				controls_state = 792
+				controls_state = 793
+				controls_state = 795
+			}
+
+			# --- NEL ---
+			custom_trigger_tooltip = {
+				tooltip = STN_reform_XX_NEL
+				controls_state = 22
+				controls_state = 31
+				controls_state = 118
+				controls_state = 165
+				controls_state = 166
+				controls_state = 167
+				controls_state = 172
+				controls_state = 177
+				controls_state = 794
+				controls_state = 806
+				controls_state = 1154
+			}
+
+			
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 22
+				state = 31
+				state = 41
+				state = 112
+				state = 118
+				state = 165
+				state = 166
+				state = 167
+				state = 168
+				state = 169
+				state = 170
+				state = 171
+				state = 172
+				state = 173
+				state = 174
+				state = 175
+				state = 176
+				state = 177
+				state = 178
+				state = 179
+				state = 180
+				state = 181
+				state = 697
+				state = 698
+				state = 783
+				state = 788
+				state = 789
+				state = 790
+				state = 791
+				state = 792
+				state = 793
+				state = 794
+				state = 795
+				state = 806
+				state = 1154
+			}
+		}
+	
+		visible = {
+			original_tag = STN
+		}
+        complete_effect ={
+			hidden_effect = {
+			custom_effect_tooltip = GNS_form_empire_effect
+				STN = { every_owned_state = { add_core_of = STN } }
+			}
+            set_cosmetic_tag = STN_great_gondurass
+        }
+    }
+	STN_war_NEL = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			NEL = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+}

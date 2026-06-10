@@ -1,0 +1,16 @@
+characters = {
+    LRB_LeronBaron = {
+        name=ch_LeronBaron
+        portraits={
+            civilian = {
+                large="GFX_portrait_LRB_LeronBaron"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = LRB_desc
+        }
+    }
+}

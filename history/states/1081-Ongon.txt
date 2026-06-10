@@ -1,0 +1,22 @@
+state={
+	id=1081
+	name="STATE_1052"
+
+	history={
+		owner = MGZ
+		buildings = {
+			infrastructure = 1
+		}
+		#add_core_of = MON
+		#add_core_of = MEN
+		#add_core_of = CHI
+	}
+
+	provinces={
+		4873 
+	}
+	manpower=54566
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

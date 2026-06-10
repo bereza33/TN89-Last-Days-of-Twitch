@@ -1,0 +1,27 @@
+state={
+	id=699
+	name="STATE_699"
+	manpower = 21056
+	
+	state_category = wasteland
+
+	history={
+		owner = STN
+		#add_claim_by = WES
+		buildings = {
+			infrastructure = 1
+			8038 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			8038 1
+		}
+	}
+	
+	provinces={
+		4920 5012 8038 8111 10875 13635 13640 
+	}
+
+	local_supplies=0.0 
+}

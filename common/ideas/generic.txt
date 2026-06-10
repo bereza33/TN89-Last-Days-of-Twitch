@@ -1,0 +1,49 @@
+ideas = {
+    country = {
+        low_auditory_instability = {
+            removal_cost = -1
+            picture = generic_army_problems
+
+            available = {
+                OR = {
+                    stream_gaming > 59
+                    stream_chatting > 59 
+                    stream_irl > 59 
+                    stream_creative > 59 
+                }
+            }
+
+            cancel = {
+                OR = {
+                    stream_gaming < 60
+                    stream_chatting < 60 
+                    stream_irl < 60 
+                    stream_creative < 60 
+                }
+            }
+        }
+
+        auditory_instability = {
+            removal_cost = -1
+            picture = generic_army_problems
+
+            available = {
+                OR = {
+                    stream_gaming > 79
+                    stream_chatting > 79 
+                    stream_irl > 79 
+                    stream_creative > 79 
+                }
+            }
+
+            cancel = {
+                OR = {
+                    stream_gaming < 80
+                    stream_chatting < 80 
+                    stream_irl < 80
+                    stream_creative < 80
+                }
+            }
+        }
+    }
+}

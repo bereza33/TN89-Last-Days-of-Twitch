@@ -1,0 +1,16 @@
+characters = {
+    BAT_Batya = {
+        name=ch_Batya
+        portraits={
+            civilian = {
+                large="GFX_portrait_BAT_Batya"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = BAT_desc
+        }
+    }
+}

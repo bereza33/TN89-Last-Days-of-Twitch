@@ -1,0 +1,90 @@
+﻿l_russian: 
+ DRE_EMPIRE: "Империя Дрейка"
+ DRE_EMPIRE_DEF: "Империя Дрейка"
+ DRE_EMPIRE_ADJ: "Дрейк."
+
+ STN_great_gondurass: "Великая Гондурассия"
+ STN_great_gondurass_DEF: "Великая Гондурассия"
+ STN_great_gondurass_ADJ: "Великогондурасск."
+ TN89_italia: "Италия"
+ TN89_italia_DEF: "Итальянское государство"
+ TN89_italia_ADJ: "Итальянск."
+ MZL_chikenbekonia: "Чикен-Бекония"
+ MZL_chikenbekonia_DEF: "Чикен-Беконское государство"
+ MZL_chikenbekonia_ADJ: "Чикенбеконск."
+ MZL_imperium: "Imperium Mazano"
+ MZL_imperium_DEF: "Sanktum Imperium de Mazano"
+ MZL_imperium_ADJ: "Имперск."
+ BRT_new_89: "Государство 89"
+ BRT_new_89_DEF: "Государство 89"
+ BRT_new_89_ADJ: "89ск."
+ stream_game_up: "§GУйти в хардкор-гейминг§!"
+ stream_game_up_desc: "Стрим становится более игровым. Зрители требуют катки и рейтинг."
+ stream_game_down: "§RСнизить долю гейминга§!"
+ stream_game_down_desc: "Игры отходят на второй план."
+
+ stream_gaming_result_tt: "§YИгровой сегмент усиливается§!\nИгры: §G+6§!\nОстальные категории: §R-2§!"
+ stream_gaming_down_result_tt: "§YИгровой сегмент сокращается§!\nИгры: §R-6§!\nОстальные категории: §G+2§!"
+
+ stream_irl_up: "§GБольше IRL-контента§!"
+ stream_irl_up_desc: "Реальная жизнь выходит в эфир."
+
+ stream_irl_down: "§RСократить IRL§!"
+ stream_irl_down_desc: "Возврат к студийному формату."
+
+ stream_irl_result_tt: "§YIRL-сегмент усиливается§!\nIRL: §G+6§!\nОстальные категории: §R-2§!"
+ stream_irl_down_result_tt: "§YIRL-сегмент сокращается§!\nIRL: §R-6§!\nОстальные категории: §G+2§!"
+
+ stream_creative_up: "§GУдариться в творчество§!"
+ stream_creative_up_desc: "Арты, монтаж, эксперименты."
+
+ stream_creative_down: "§RСнизить творческий сегмент§!"
+ stream_creative_down_desc: "Меньше креатива, больше универсальности."
+
+ stream_creative_result_tt: "§YТворческий сегмент усиливается§!\nCreative: §G+6§!\nОстальные категории: §R-2§!"
+ stream_creative_down_result_tt: "§YТворческий сегмент сокращается§!\nCreative: §R-6§!\nОстальные категории: §G+2§!"
+
+ stream_chatting_up: "§GРазогнать Just Chatting§!"
+ stream_chatting_up_desc: "Больше разговоров и живого общения."
+
+ stream_chatting_down: "§RСнизить болтовню§!"
+ stream_chatting_down_desc: "Фокус возвращается к формату."
+
+ stream_chatting_result_tt: "§YРазговорный сегмент усиливается§!\nChatting: §G+6§!\nОстальные категории: §R-2§!"
+ stream_chatting_down_result_tt: "§YРазговорный сегмент сокращается§!\nChatting: §R-6§!\nОстальные категории: §G+2§!"
+ BTK_89: "Великое Государство 89"
+ BTK_89_ADJ: "Новый 89ый"
+ BTK_89_DEF: "Сквадск."
+
+ GNS_empire:  "Женское регенство"
+ GNS_empire_DEF:  "Женское регенство"
+ GNS_empire_ADJ:  "Генсушеск."
+ PYA_hype:  "Логово Хайпа"
+ PYA_hype_DEF:  "Логово Хайпа"
+ PYA_hype_ADJ:  "Хайповск."
+
+ ### Россия
+ RUS_formable:  "Россия"
+ RUS_formable_DEF:  "Россия"
+ RUS_formable_ADJ:  "Российск."
+
+ ### Италия
+ ITA_formable:  "Италия"
+ ITA_formable_DEF:  "Италия"
+ ITA_formable_ADJ:  "Итальянск."
+
+ ### Польша
+ POL_formable:  "Польша"
+ POL_formable_DEF:  "Польша"
+ POL_formable_ADJ:  "Польск."
+ 
+ #BTK_89_fascism: "Великое Государство 89"
+ #BTK_89_fascism_DEF: "Новый 89ый"
+ #BTK_89_fascism_ADJ: "Сквадск."
+ #BTK_89_communism: "Советская Социалистическая Республика 89"
+ #BTK_89_communism_DEF: "ССР89"
+ #BTK_89_communism_ADJ: "Советск."
+ #BTK_89_neutrality: "Великое Царство 89"
+ #BTK_89_neutrality_DEF: "Княжество 89"
+ #BTK_89_neutrality_ADJ: "Княжеск."
+ 

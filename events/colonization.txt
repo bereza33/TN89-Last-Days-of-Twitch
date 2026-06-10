@@ -1,0 +1,105 @@
+add_namespace = col
+
+country_event = {
+	id = col.1
+	title = col.1.t
+	desc = col.1.d
+	picture = GFX_report_event_picture_BTK_3
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = col.1.a
+		random_state = {
+			limit = {
+				has_state_flag = defender_state_@ROOT
+			}
+			transfer_state_to = ROOT
+			clr_state_flag = defender_state_@ROOT
+		}
+	}
+}
+
+country_event = {
+	id = col.2
+	title = col.2.t
+	desc = col.2.d
+	picture = GFX_report_event_picture_BTK_3
+	
+	major = no
+	
+	is_triggered_only = yes
+
+	immediate = {
+		random_state = {
+			limit = {
+				has_state_flag = defender_state_@ROOT
+			}
+			owner = {
+				save_event_target_as = colony_owner
+			}
+			clr_state_flag = defender_state_@ROOT
+		}
+    }
+
+	option = {
+		name = col.2.a
+		declare_war_on = {
+    		target = event_target:colony_owner
+    		type = annex_everything
+		}
+	}
+	option = {
+		name = col.2.b
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = col.3
+	title = col.3.t
+	desc = col.3.d
+	picture = GFX_report_event_picture_BTK_3
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = col.3.a
+	}
+}
+
+country_event = {
+	id = col.4
+	title = col.4.t
+	desc = col.4.d
+	picture = GFX_report_event_picture_BTK_3
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = col.4.a
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = col.5
+	title = col.5.t
+	desc = col.5.d
+	picture = GFX_report_event_picture_BTK_3
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = col.5.a
+		add_political_power = -50
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+    EVL_Evelone = {
+        name=ch_Evelone
+        portraits={
+            civilian = {
+                large="GFX_portrait_EVL_Evelone"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = EVL_desc
+        }
+    }
+}

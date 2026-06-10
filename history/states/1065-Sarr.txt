@@ -1,0 +1,30 @@
+state={
+	id=1065
+	name="STATE_1035"
+	
+	history = {
+
+		owner = SCS
+	add_core_of = SCS
+		#add_core_of = GER
+		#add_core_of = RHI
+		#add_core_of = PRE
+
+		victory_points = { 
+			11531 5 # Saarbrücken
+		}
+
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+	
+	provinces={
+		11531 
+	}
+	manpower=334054
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

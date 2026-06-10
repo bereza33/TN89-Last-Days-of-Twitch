@@ -1,0 +1,50 @@
+on_actions = {
+	on_startup = {
+		effect = { # just a barebones setup
+			every_country = {
+				limit = {
+					NOT = {
+						tag = FRA
+						tag = USA
+						tag = ENG
+						tag = ITA
+						tag = JAP
+						tag = SOV
+					}
+				}
+				if = {
+					limit = { has_government = democratic }
+					add_ideas = limited_supervision
+					add_ideas = segregated_regiments
+					add_ideas = non_combat_roles
+					add_ideas = basic_training
+					add_ideas = standard_restrictions
+				}
+				if = {
+					limit = { has_government = neutrality }
+					add_ideas = limited_supervision
+					add_ideas = recruitment_prohibited
+					add_ideas = female_service_prohibited
+					add_ideas = basic_training
+					add_ideas = standard_restrictions
+				}
+				if = {
+					limit = { has_government = fascism }
+					add_ideas = no_supervision
+					add_ideas = recruitment_prohibited
+					add_ideas = female_service_prohibited
+					add_ideas = basic_training
+					add_ideas = strict_restrictions
+				}
+				if = {
+					limit = { has_government = communism }
+					add_ideas = limited_supervision
+					add_ideas = segregated_regiments
+					add_ideas = female_combat_roles
+					add_ideas = basic_training
+					add_ideas = standard_restrictions
+				}
+			}
+		}
+	}
+}

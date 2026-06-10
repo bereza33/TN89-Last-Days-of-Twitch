@@ -1,0 +1,23 @@
+state={
+	id=XXXX
+	name="XXXX"
+
+	impassable = no
+
+	history={
+		owner = XXXX
+		add_core_of = XXXX
+
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+
+	provinces={
+		XXXX XXXX
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

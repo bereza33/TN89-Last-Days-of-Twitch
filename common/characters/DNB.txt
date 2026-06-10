@@ -1,0 +1,16 @@
+characters = {
+    DNB_Dinablin = {
+        name=ch_Dinablin
+        portraits={
+            civilian = {
+                large="GFX_portrait_DNB_Dinablin"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = DNB_desc
+        }
+    }
+}

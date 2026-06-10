@@ -1,0 +1,16 @@
+characters = {
+    DPN_Dippins = {
+        name=ch_Dippins
+        portraits={
+            civilian = {
+                large="GFX_portrait_DPN_Dippins"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = DPN_desc
+        }
+    }
+}

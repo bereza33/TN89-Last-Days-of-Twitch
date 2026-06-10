@@ -1,0 +1,24 @@
+state={
+	id=1272
+	name="Latakia"
+	
+	history={
+		#add_core_of = SYR
+		owner = ART
+	add_core_of = ART
+		buildings = {
+			infrastructure = 3
+			10087 = {
+				naval_base = 4
+			}
+		}
+	}
+	
+	provinces={
+		1088 10087
+	}
+	manpower=92311
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

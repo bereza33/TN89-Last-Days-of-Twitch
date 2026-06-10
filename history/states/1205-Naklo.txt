@@ -1,0 +1,31 @@
+state={
+	id=1205
+	name="Naklo"
+
+
+	history={
+		owner = MDS
+	add_core_of = MDS
+		#add_core_of = POL
+		buildings = {
+			infrastructure = 3
+			3381 = {
+				bunker = 1
+
+			}
+			11232 = {
+				bunker = 1
+
+			}
+
+		}
+		
+	}
+
+	provinces={
+		17 243 388 3381 11232
+	}
+	manpower=264264
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

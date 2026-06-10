@@ -1,0 +1,16 @@
+characters = {
+    PYA_Pyaterka = {
+        name=ch_Pyaterka
+        portraits={
+            civilian = {
+                large="GFX_portrait_PYA_Pyaterka"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = PYA_desc
+        }
+    }
+}

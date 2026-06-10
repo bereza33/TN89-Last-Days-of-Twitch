@@ -1,0 +1,16 @@
+characters = {
+    ZLN_Zloyn = {
+        name=ch_Zloyn
+        portraits={
+            civilian = {
+                large="GFX_portrait_ZLN_Zloyn"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = ZLN_desc
+        }
+    }
+}

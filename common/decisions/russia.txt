@@ -1,0 +1,342 @@
+Russia_form_cat = {
+	Russia_form = {
+		icon = generic_form_nation
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+        	base = 20
+    	}
+
+		allowed = {
+			OR = {
+				original_tag = BUS
+				original_tag = SPK
+				original_tag = GKM
+				original_tag = MAF
+				original_tag = PYA
+				original_tag = T2X
+			}
+		}
+
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = Russia_form_PYA
+				controls_state = 217
+				controls_state = 218
+				controls_state = 227
+				controls_state = 228
+				controls_state = 236
+				controls_state = 237
+				controls_state = 238
+				controls_state = 245
+				controls_state = 265
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Russia_form_BUS
+				controls_state = 205
+				controls_state = 219
+				controls_state = 222
+				controls_state = 223
+				controls_state = 224
+				controls_state = 241
+				controls_state = 242
+				controls_state = 243
+				controls_state = 246
+				controls_state = 247
+				controls_state = 248
+				controls_state = 253
+				controls_state = 254
+				controls_state = 257
+				controls_state = 258
+				controls_state = 1291
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Russia_form_FNR
+				controls_state = 214
+				controls_state = 262
+				controls_state = 397
+				controls_state = 825
+				controls_state = 880
+				controls_state = 1160
+				controls_state = 1288
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Russia_form_GKM
+				controls_state = 239
+				controls_state = 250
+				controls_state = 251
+				controls_state = 255
+				controls_state = 401
+				controls_state = 829
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Russia_form_T2X
+				controls_state = 12
+				controls_state = 13
+				controls_state = 191
+				controls_state = 209
+				controls_state = 210
+				controls_state = 808
+				controls_state = 810
+				controls_state = 811
+				controls_state = 812
+				controls_state = 813
+				controls_state = 1052
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Russia_form_SPK
+				controls_state = 193
+				controls_state = 220
+				controls_state = 221
+				controls_state = 225
+				controls_state = 240
+				controls_state = 259
+				controls_state = 260
+				controls_state = 1070
+				controls_state = 1071
+				controls_state = 1191
+				controls_state = 1192
+				controls_state = 1276
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Russia_form_JNT
+				controls_state = 249
+				controls_state = 252
+				controls_state = 256
+				controls_state = 399
+				controls_state = 400
+				controls_state = 833
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Russia_form_MAF
+				controls_state = 146
+				controls_state = 147
+				controls_state = 195
+				controls_state = 208
+				controls_state = 213
+				controls_state = 215
+				controls_state = 216
+				controls_state = 244
+				controls_state = 263
+				controls_state = 264
+				controls_state = 351
+				controls_state = 879
+				controls_state = 928
+			}
+		}
+
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 12
+				state = 13
+				state = 146
+				state = 147
+				state = 191
+				state = 193
+				state = 195
+				state = 205
+				state = 208
+				state = 209
+				state = 210
+				state = 213
+				state = 214
+				state = 215
+				state = 216
+				state = 217
+				state = 218
+				state = 219
+				state = 220
+				state = 221
+				state = 222
+				state = 223
+				state = 224
+				state = 225
+				state = 227
+				state = 228
+				state = 236
+				state = 237
+				state = 238
+				state = 239
+				state = 240
+				state = 241
+				state = 242
+				state = 243
+				state = 244
+				state = 245
+				state = 246
+				state = 247
+				state = 248
+				state = 249
+				state = 250
+				state = 251
+				state = 252
+				state = 253
+				state = 254
+				state = 255
+				state = 256
+				state = 257
+				state = 258
+				state = 259
+				state = 260
+				state = 262
+				state = 263
+				state = 264
+				state = 265
+				state = 351
+				state = 397
+				state = 399
+				state = 400
+				state = 401
+				state = 808
+				state = 810
+				state = 811
+				state = 812
+				state = 813
+				state = 825
+				state = 829
+				state = 833
+				state = 879
+				state = 880
+				state = 928
+				state = 1052
+				state = 1070
+				state = 1071
+				state = 1160
+				state = 1191
+				state = 1192
+				state = 1276
+				state = 1288
+				state = 1291
+			}
+
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+
+		visible = {
+			OR = {
+				original_tag = BUS
+				original_tag = SPK
+				original_tag = GKM
+				original_tag = MAF
+				original_tag = PYA
+				original_tag = T2X
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = Russia_form_effect
+
+			hidden_effect = {
+				ROOT = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+			}
+
+			set_cosmetic_tag = RUS_formable
+		}
+	}
+	Russia_war_PYA = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = PYA } }
+		complete_effect = { PYA = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Russia_war_BUS = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = BUS } }
+		complete_effect = { BUS = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Russia_war_SPK = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = SPK } }
+		complete_effect = { SPK = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Russia_war_GKM = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = GKM } }
+		complete_effect = { GKM = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+	
+
+	Russia_war_T2X = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = T2X } }
+		complete_effect = { T2X = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Russia_war_MAF = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = MAF } }
+		complete_effect = { MAF = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Russia_war_JNT = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = JNT } }
+		complete_effect = { JNT = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Russia_war_FNR = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = FNR } }
+		complete_effect = { FNR = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+}
+

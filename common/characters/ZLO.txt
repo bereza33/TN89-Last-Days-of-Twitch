@@ -1,0 +1,16 @@
+characters = {
+    ZLO_Zolo = {
+        name=ch_Zolo
+        portraits={
+            civilian = {
+                large="GFX_portrait_ZLO_Zolo"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = ZLO_desc
+        }
+    }
+}

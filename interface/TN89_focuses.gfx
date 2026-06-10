@@ -1,0 +1,67 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_goal_army_generic"
+		texturefile = "gfx/interface/goals/Generic/army_gfx_Generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_doctrina_1_generic"
+		texturefile = "gfx/interface/goals/Generic/doctrina_1_generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_doctrina_2_generic"
+		texturefile = "gfx/interface/goals/Generic/doctrina_2_generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_doctrina_3_generic"
+		texturefile = "gfx/interface/goals/Generic/doctrina_3_generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_Arta_plus_Pehota_generic"
+		texturefile = "gfx/interface/goals/Generic/Arta_Plus_Pehota_generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_potgotovka_3000_generic"
+		texturefile = "gfx/interface/goals/Generic/potgotovka_3000_generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_Arta_generic"
+		texturefile = "gfx/interface/goals/Generic/arta_Generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_specnaz_generic"
+		texturefile = "gfx/interface/goals/Generic/specnaz_Generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_mexavizaciya_generic"
+		texturefile = "gfx/interface/goals/Generic/Mexavizaciya_Generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_Moto_peha_generic"
+		texturefile = "gfx/interface/goals/Generic/Moto_peha_Generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_Brone_kulak_generic"
+		texturefile = "gfx/interface/goals/Generic/Brone_kulak_Generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_Brone_transpot_generic"
+		texturefile = "gfx/interface/goals/Generic/Brone_transpot_Generic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_VSN_generic"
+		texturefile = "gfx/interface/goals/Generic/VSN_Generic.dds"
+	}
+}

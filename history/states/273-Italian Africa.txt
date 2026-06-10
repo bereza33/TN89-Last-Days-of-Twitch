@@ -1,0 +1,18 @@
+state={
+	id=273
+	name="STATE_273"
+	
+	impassable = yes
+
+	history={
+		owner = ZUS
+		#add_core_of = LBA
+	}
+	provinces={
+		5004 
+	}
+	manpower=22305
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

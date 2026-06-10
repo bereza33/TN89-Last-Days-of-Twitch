@@ -1,0 +1,16 @@
+characters = {
+    SHD_Shadowkek = {
+        name=ch_Shadowkek
+        portraits={
+            civilian = {
+                large="GFX_portrait_SHD_Shadowkek"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = SHD_desc
+        }
+    }
+}

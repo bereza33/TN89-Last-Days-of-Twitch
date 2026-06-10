@@ -1,0 +1,28 @@
+
+state={
+	id=460
+	name="STATE_460" # Constantine
+	manpower = 2343837
+	
+	state_category = town
+
+	history={
+		owner = ZUS
+		#add_core_of = ALG
+		victory_points = {
+			12051 3 
+		}
+		buildings = {
+			infrastructure = 2
+			7081 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		4046 7065 7166 9943 9976 10059 10078 11953 12034 12051 12888 13077 
+	}
+
+	local_supplies=0.0 
+}

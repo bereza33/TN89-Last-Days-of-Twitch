@@ -1,0 +1,16 @@
+characters = {
+    ZKV_Zakviel = {
+        name=ch_Zakviel
+        portraits={
+            civilian = {
+                large="GFX_portrait_ZKV_Zakviel"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = ZKV_desc
+        }
+    }
+}

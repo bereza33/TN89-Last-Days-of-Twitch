@@ -1,0 +1,88 @@
+GNS_debug = {
+    GNS_change_portrait_0_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = GNS }
+        visible = { tag = GNS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = GNS_Gensyxa
+                civilian = { large ="GFX_portrait_GNS_Gensyxa" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    GNS_change_portrait_1_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = GNS }
+        visible = { tag = GNS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = GNS_Gensyxa
+                civilian = { large ="GFX_portrait_GNS_Gensyxa_alt_1" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    GNS_change_portrait_2_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = GNS }
+        visible = { tag = GNS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = GNS_Gensyxa
+                civilian = { large ="GFX_portrait_GNS_Gensyxa_alt_2" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    GNS_change_portrait_3_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = GNS }
+        visible = { tag = GNS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = GNS_Gensyxa
+                civilian = { large ="GFX_portrait_GNS_Gensyxa_alt_3" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    GNS_change_portrait_4_debug = {
+        icon = GFX_decision_generic_propaganda
+
+        allowed = { tag = GNS }
+        visible = { tag = GNS is_debug = yes }
+
+        cost = 0
+
+        complete_effect = {
+            set_portraits = {
+                character = GNS_Gensyxa
+                civilian = { large ="GFX_portrait_GNS_Gensyxa_alt_4" }
+            }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+}

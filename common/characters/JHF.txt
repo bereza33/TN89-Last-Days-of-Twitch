@@ -1,0 +1,16 @@
+characters = {
+    JHF_Jojohf = {
+        name=ch_Jojohf
+        portraits={
+            civilian = {
+                large="GFX_portrait_JHF_Jojohf"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = JHF_desc
+        }
+    }
+}
