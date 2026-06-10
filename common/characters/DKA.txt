@@ -1,0 +1,16 @@
+characters = {
+    DKA_DK = {
+        name=ch_DK
+        portraits={
+            civilian = {
+                large="GFX_portrait_DKA_DK"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = DKA_desc
+        }
+    }
+}

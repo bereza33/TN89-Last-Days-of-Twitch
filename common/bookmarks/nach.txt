@@ -1,0 +1,155 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "BRT"
+		default = yes
+		BUS={
+			history = "TN89_hist_BUS"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		DRE={
+			history = "TN89_hist_DRE"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		MZL={
+			history = "TN89_hist_MZL"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		BRT={
+			history = "TN89_hist_BRT"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		STN={
+			history = "TN89_hist_STN"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		PYA={
+			history = "TN89_hist_PYA"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"JGN"={
+			history = ""
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"DPN"={
+			history = ""
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"PPC"={
+			history = ""
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GNS"={
+			history = ""
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"DKA"={
+			history = ""
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ART"={
+			history = ""
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"EVL"={
+			history = ""
+			ideology = neutrality
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

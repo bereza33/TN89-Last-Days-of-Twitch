@@ -1,0 +1,16 @@
+characters = {
+    STN_Stintik = {
+        name=ch_Stintik
+        portraits={
+            civilian = {
+                large="GFX_portrait_STN_Stintik"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = STN_desc
+        }
+    }
+}

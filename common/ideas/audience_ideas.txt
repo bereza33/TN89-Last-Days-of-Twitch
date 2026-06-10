@@ -1,0 +1,18 @@
+ideas = {
+
+    jc_low = { modifier = { stability_factor = -0.05 } }
+    jc_ok = { modifier = { stability_factor = 0.05 } }
+    jc_over = { modifier = { stability_factor = -0.1 } }
+
+    irl_low = { modifier = { war_support_factor = -0.05 } }
+    irl_ok = { modifier = { war_support_factor = 0.05 } }
+    irl_over = { modifier = { stability_factor = -0.05 } }
+
+    gaming_low = { modifier = { political_power_gain = -0.05 } }
+    gaming_ok = { modifier = { political_power_gain = 0.05 } }
+    gaming_over = { modifier = { stability_factor = -0.1 } }
+
+    creative_low = { modifier = { stability_factor = -0.03 } }
+    creative_ok = { modifier = { stability_factor = 0.04 } }
+    creative_over = { modifier = { stability_factor = -0.08 } }
+}

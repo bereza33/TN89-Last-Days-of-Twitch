@@ -1,0 +1,16 @@
+characters = {
+    SND_Sindics = {
+        name=ch_Sindics
+        portraits={
+            civilian = {
+                large="GFX_portrait_SND_Sindics"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = SND_desc
+        }
+    }
+}

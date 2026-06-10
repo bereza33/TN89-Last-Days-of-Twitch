@@ -1,0 +1,16 @@
+characters = {
+    ART_Aratossik = {
+        name=ch_Aratossik
+        portraits={
+            civilian = {
+                large="GFX_portrait_ART_Aratossik"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = ART_desc
+        }
+    }
+}

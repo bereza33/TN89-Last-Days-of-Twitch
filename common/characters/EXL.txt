@@ -1,0 +1,16 @@
+characters = {
+    EXL_Exile = {
+        name=ch_Exile
+        portraits={
+            civilian = {
+                large="GFX_portrait_EXL_Exile"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = EXL_desc
+        }
+    }
+}

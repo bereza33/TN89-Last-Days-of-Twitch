@@ -1,0 +1,16 @@
+characters = {
+    MZL_Mazellof = {
+        name=ch_Mazellof
+        portraits={
+            civilian = {
+                large="GFX_portrait_MZL_Mazellof"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = MZL_desc
+        }
+    }
+}

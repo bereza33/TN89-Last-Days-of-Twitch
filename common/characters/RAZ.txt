@@ -1,0 +1,16 @@
+characters = {
+    RAZ_Razdva = {
+        name=ch_Razdva
+        portraits={
+            civilian = {
+                large="GFX_portrait_RAZ_Razdva"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = RAZ_desc
+        }
+    }
+}

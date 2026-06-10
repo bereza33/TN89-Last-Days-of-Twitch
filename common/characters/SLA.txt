@@ -1,0 +1,16 @@
+characters = {
+    SLA_Silazhik = {
+        name=ch_Silazhik
+        portraits={
+            civilian = {
+                large="GFX_portrait_SLA_Silazhik"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = SLA_desc
+        }
+    }
+}

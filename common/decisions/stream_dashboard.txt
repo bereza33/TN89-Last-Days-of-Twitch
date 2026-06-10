@@ -1,0 +1,146 @@
+stream_cat = {
+
+    # =====================
+    # GAMING
+    # =====================
+
+    stream_game_up = {
+        icon = GFX_stream_gaming
+        cost = 15
+        days_remove = 3
+        available = { check_variable = { stream_gaming < 94 } }
+        complete_effect = {
+            add_to_variable = { stream_gaming = 6 }
+            add_to_variable = { stream_irl = -2 }
+            add_to_variable = { stream_creative = -2 }
+            add_to_variable = { stream_chatting = -2 }
+            create_pie_chart = yes
+            custom_effect_tooltip  = stream_gaming_result_tt
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    stream_game_down = {
+        icon = GFX_stream_gaming_down
+        cost = 15
+        days_remove = 3
+        available = { check_variable = { stream_gaming > 6 } }
+        complete_effect = {
+            add_to_variable = { stream_gaming = -6 }
+            add_to_variable = { stream_irl = 2 }
+            add_to_variable = { stream_creative = 2 }
+            add_to_variable = { stream_chatting = 2 }
+            create_pie_chart = yes
+            custom_effect_tooltip  = stream_gaming_down_result_tt
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    # =====================
+    # IRL
+    # =====================
+
+    stream_irl_up = {
+        icon = GFX_stream_irl
+        cost = 15
+        days_remove = 3
+        available = { check_variable = { stream_irl < 94 } }
+        complete_effect = {
+            add_to_variable = { stream_irl = 6 }
+            add_to_variable = { stream_gaming = -2 }
+            add_to_variable = { stream_creative = -2 }
+            add_to_variable = { stream_chatting = -2 }
+            create_pie_chart = yes
+            custom_effect_tooltip  = stream_irl_result_tt
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    stream_irl_down = {
+        icon = GFX_stream_irl_down
+        cost = 15
+        days_remove = 3
+        available = { check_variable = { stream_irl > 6 } }
+        complete_effect = {
+            add_to_variable = { stream_irl = -6 }
+            add_to_variable = { stream_gaming = 2 }
+            add_to_variable = { stream_creative = 2 }
+            add_to_variable = { stream_chatting = 2 }
+            create_pie_chart = yes
+            custom_effect_tooltip  = stream_irl_down_result_tt
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    # =====================
+    # CREATIVE
+    # =====================
+
+    stream_creative_up = {
+        icon = GFX_stream_creative
+        cost = 15
+        days_remove = 3
+        available = { check_variable = { stream_creative < 94 } }
+        complete_effect = {
+            add_to_variable = { stream_creative = 6 }
+            add_to_variable = { stream_gaming = -2 }
+            add_to_variable = { stream_irl = -2 }
+            add_to_variable = { stream_chatting = -2 }
+            create_pie_chart = yes
+            custom_effect_tooltip  = stream_creative_result_tt
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    stream_creative_down = {
+        icon = GFX_stream_creative_down
+        cost = 15
+        days_remove = 3
+        available = { check_variable = { stream_creative > 6 } }
+        complete_effect = {
+            add_to_variable = { stream_creative = -6 }
+            add_to_variable = { stream_gaming = 2 }
+            add_to_variable = { stream_irl = 2 }
+            add_to_variable = { stream_chatting = 2 }
+            create_pie_chart = yes
+            custom_effect_tooltip  = stream_creative_down_result_tt
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    # =====================
+    # CHATTING
+    # =====================
+
+    stream_chatting_up = {
+        icon = GFX_stream_chatting
+        cost = 15
+        days_remove = 3
+        available = { check_variable = { stream_chatting < 94 } }
+        complete_effect = {
+            add_to_variable = { stream_chatting = 6 }
+            add_to_variable = { stream_gaming = -2 }
+            add_to_variable = { stream_irl = -2 }
+            add_to_variable = { stream_creative = -2 }
+            create_pie_chart = yes
+            custom_effect_tooltip  = stream_chatting_result_tt
+        }
+        ai_will_do = { factor = 0 }
+    }
+
+    stream_chatting_down = {
+        icon = GFX_stream_chatting_down
+        cost = 15
+        days_remove = 3
+        available = { check_variable = { stream_chatting > 6 } }
+        complete_effect = {
+            add_to_variable = { stream_chatting = -6 }
+            add_to_variable = { stream_gaming = 2 }
+            add_to_variable = { stream_irl = 2 }
+            add_to_variable = { stream_creative = 2 }
+            create_pie_chart = yes
+            custom_effect_tooltip  = stream_chatting_down_result_tt
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

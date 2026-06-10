@@ -1,0 +1,37 @@
+state={
+	id=185
+	name="STATE_185"
+	
+	history={
+		victory_points = {
+			10203 1
+		}
+		victory_points = {
+			3914 3
+		}
+		
+		owner = EXL
+	add_core_of = EXL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			9805 = {
+				naval_base = 1
+			}
+		}
+		#add_core_of = GRE
+	}
+	
+	resources={
+		chromium=14.000
+		steel=14.000
+	}
+	provinces={
+		841 1106 3914 3980 9805 9916 10203 
+	}
+	manpower=71050
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=9.000
+}

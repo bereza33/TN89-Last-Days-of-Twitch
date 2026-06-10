@@ -1,0 +1,16 @@
+characters = {
+    STR_Strogo = {
+        name=ch_Strogo
+        portraits={
+            civilian = {
+                large="GFX_portrait_STR_Strogo"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = STR_desc
+        }
+    }
+}

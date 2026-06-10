@@ -1,0 +1,185 @@
+Italy_form_cat = {
+	Italy_form = {
+		icon = generic_form_nation
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+        	base = 20
+    	}
+
+		allowed = {
+			OR = {
+				original_tag = MKR
+				original_tag = ZLO
+				original_tag = DKA
+				original_tag = SLR
+				original_tag = NEK
+			}
+		}
+
+		available = {
+			is_subject = no
+
+			custom_trigger_tooltip = {
+				tooltip = Italy_form_MKR
+				controls_state = 158
+				controls_state = 735
+				controls_state = 847
+				controls_state = 1120
+				controls_state = 1214
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Italy_form_ZLO
+				controls_state = 161
+				controls_state = 162
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Italy_form_DKA
+				controls_state = 2
+				controls_state = 114
+				controls_state = 115
+				controls_state = 116
+				controls_state = 117
+				controls_state = 156
+				controls_state = 157
+				controls_state = 849
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Italy_form_SLR
+				controls_state = 151
+				controls_state = 159
+				controls_state = 846
+			}
+
+			custom_trigger_tooltip = {
+				tooltip = Italy_form_NEK
+				controls_state = 160
+				controls_state = 163
+				controls_state = 736
+				controls_state = 852
+				controls_state = 853
+				controls_state = 1048
+				controls_state = 1064
+				controls_state = 1073
+				controls_state = 1217
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2
+				state = 114
+				state = 115
+				state = 116
+				state = 117
+				state = 151
+				state = 156
+				state = 157
+				state = 158
+				state = 159
+				state = 160
+				state = 161
+				state = 162
+				state = 163
+				state = 735
+				state = 736
+				state = 846
+				state = 847
+				state = 849
+				state = 852
+				state = 853
+				state = 1048
+				state = 1064
+				state = 1073
+				state = 1120
+				state = 1214
+				state = 1217
+			}
+
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		visible = {
+			OR = {
+				original_tag = MKR
+				original_tag = ZLO
+				original_tag = DKA
+				original_tag = SLR
+				original_tag = NEK
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = Italy_form_effect
+
+			hidden_effect = {
+				ROOT = {
+					every_owned_state = {
+						add_core_of = ROOT
+					}
+				}
+			}
+
+			set_cosmetic_tag = ITA_formable
+		}
+	}
+	Italy_war_MKR = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = MKR } }
+		complete_effect = { MKR = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Italy_war_ZLO = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = ZLO } }
+		complete_effect = { ZLO = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Italy_war_DKA = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = DKA } }
+		complete_effect = { DKA = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Italy_war_SLR = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = SLR } }
+		complete_effect = { SLR = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	Italy_war_NEK = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		available = { NOT = { tag = NEK } }
+		complete_effect = { NEK = { country_event = { id = script.1 } } }
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+}

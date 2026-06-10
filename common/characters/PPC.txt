@@ -1,0 +1,16 @@
+characters = {
+    PPC_Arthas = {
+        name=ch_Arthas
+        portraits={
+            civilian = {
+                large="GFX_portrait_PPC_Arthas"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = PPC_desc
+        }
+    }
+}

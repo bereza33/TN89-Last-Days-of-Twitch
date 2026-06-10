@@ -1,0 +1,29 @@
+state={
+	id=851
+	name="STATE_851"
+	
+	history = {
+
+		owner = DNB
+	add_core_of = DNB
+		#add_core_of = OCC
+		#add_core_of = FRA
+
+		buildings = {
+			infrastructure = 2
+			911 = {
+				naval_base = 5
+
+			}
+		}
+
+	}
+	
+	provinces={
+		911 956 3928 
+	}
+	manpower=485000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

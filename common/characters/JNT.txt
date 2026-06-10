@@ -1,0 +1,16 @@
+characters = {
+    JNT_Jointime = {
+        name=ch_Jointime
+        portraits={
+            civilian = {
+                large="GFX_portrait_JNT_Jointime"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = JNT_desc
+        }
+    }
+}

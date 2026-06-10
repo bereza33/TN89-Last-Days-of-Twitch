@@ -1,0 +1,16 @@
+characters = {
+    GVI_Gvin = {
+        name=ch_Gvin
+        portraits={
+            civilian = {
+                large="GFX_portrait_GVI_Gvin"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = GVI_desc
+        }
+    }
+}

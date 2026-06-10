@@ -1,0 +1,16 @@
+characters = {
+    MDS_Maddyson = {
+        name=ch_Maddyson
+        portraits={
+            civilian = {
+                large="GFX_portrait_MDS_Maddyson"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = MDS_desc
+        }
+    }
+}

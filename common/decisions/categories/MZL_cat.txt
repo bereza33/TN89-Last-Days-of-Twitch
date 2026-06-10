@@ -1,0 +1,12 @@
+MZL_form_cat = {
+
+	icon = GFX_decision_category_border_conflicts
+	priority = 12
+	allowed = {
+		original_tag = MZL
+	}
+
+	visible = {
+		original_tag = MZL
+	}
+}

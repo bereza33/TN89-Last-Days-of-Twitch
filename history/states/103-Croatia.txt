@@ -1,0 +1,25 @@
+state={
+	id=103
+	name="STATE_103"
+	
+	history={
+		owner = FFL
+	add_core_of = FFL
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 3
+		}
+		#add_core_of = YUG
+		##add_claim_by = ITA #added by focus
+		#add_core_of = CRO
+	}
+	
+	provinces={
+		591 984 3601 6611 11901 
+	}
+	manpower=1121700
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=4.000
+}

@@ -1,0 +1,16 @@
+characters = {
+    CHB_CheatBanned = {
+        name=ch_CheatBanned
+        portraits={
+            civilian = {
+                large="GFX_portrait_CHB_CheatBanned"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = CHB_desc
+        }
+    }
+}

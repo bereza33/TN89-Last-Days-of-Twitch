@@ -1,0 +1,12 @@
+on_actions = {
+   on_state_control_changed = {
+        effect = {
+            64 = {
+  				owner = { country_event = { id = cities.1 } }
+			}
+			16 = {
+				owner = { country_event = { id = cities.2 } }
+			}
+    	}
+	}
+}

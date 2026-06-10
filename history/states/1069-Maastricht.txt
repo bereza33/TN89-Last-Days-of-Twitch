@@ -1,0 +1,23 @@
+state={
+	id=1069
+	name="STATE_1039"
+	
+	history={
+		owner = LGD
+	add_core_of = LGD
+		#add_core_of = HOL
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	
+	provinces={
+		6500 11562 
+	}
+	manpower=324344
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

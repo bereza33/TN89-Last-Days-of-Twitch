@@ -1,0 +1,16 @@
+characters = {
+    SLR_Sollar = {
+        name=ch_Sollar
+        portraits={
+            civilian = {
+                large="GFX_portrait_SLR_Sollar"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = SLR_desc
+        }
+    }
+}

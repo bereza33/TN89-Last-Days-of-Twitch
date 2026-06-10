@@ -1,0 +1,16 @@
+characters = {
+    GKM_Guakomolly = {
+        name=ch_Guakomolly
+        portraits={
+            civilian = {
+                large="GFX_portrait_GKM_Guakomolly"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = GKM_desc
+        }
+    }
+}

@@ -1,0 +1,36 @@
+state={
+	id=1067
+	name="STATE_1037"
+	
+	history = {
+
+		owner = TND
+	add_core_of = TND
+		#add_core_of = GER
+		#add_core_of = HES
+		#add_core_of = PRE
+
+		buildings = {
+
+			infrastructure = 4
+
+		}
+
+		victory_points = {
+			6488 20 # Frankfurt
+		}
+
+		victory_points = {
+			6444 2 # Wiesbaden
+		}
+
+	}
+	
+	provinces={
+		589 3574 6444 6488 9486 
+	}
+	manpower=2798235
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

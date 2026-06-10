@@ -1,0 +1,437 @@
+###############################################
+############ TN89 DEBUG DECISIONS #############
+###############################################
+
+formables_cat = {
+    db_Stintia = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+        complete_effect ={
+            STN = {
+                NEL = {
+                    every_owned_state = {
+                        add_core_of = STN
+                    }
+                }
+                annex_country = {
+                    target = NEL 
+                }
+                set_cosmetic_tag = STN_great_gondurass
+            }  
+        }
+    }
+    db_Chiken_Beconia = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+        complete_effect ={
+            #FFL PRD DGR KZY EXL FRM
+            MZL = {
+                FFL = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = FFL 
+                }
+                PRD = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = PRD 
+                }
+                DGR = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = DGR 
+                }
+                KZY = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = KZY 
+                }
+                EXL = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = EXL 
+                }
+                FRM = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = FRM 
+                }
+                set_cosmetic_tag = MZL_chikenbekonia
+            }  
+        }
+    }
+    db_Mzlff_empire = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+        available = {
+            MZL ={
+                has_cosmetic_tag = MZL_chikenbekonia
+            }
+        }
+        complete_effect ={
+            MZL = {
+                ART = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = ART 
+                }
+                LRB = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = LRB 
+                }
+                FJK = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = FJK 
+                }
+                JKL = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = JKL 
+                }
+                ZKV = {
+                    every_owned_state = {
+                        add_core_of = MZL
+                    }
+                }
+                annex_country = {
+                    target = ZKV 
+                }
+                set_cosmetic_tag = MZL_imperium
+            }  
+        }
+    }
+    db_89_sqd = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+        allowed = {
+			OR = {
+				original_tag = BRT
+				original_tag = STR
+				original_tag = LIX
+				original_tag = SHD
+                original_tag = TND
+                original_tag = SCS
+                original_tag = GCK
+                original_tag = JHF
+                original_tag = RAZ
+                original_tag = ST9
+                original_tag = SLA
+                original_tag = BAT
+                original_tag = DRE
+                original_tag = JGN
+			}
+		}
+        complete_effect ={
+            ROOT = {
+                BRT = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = BRT 
+                }
+                STR = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = STR 
+                }
+                LIX = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = LIX 
+                }
+                SHD = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = SHD 
+                }
+                TND = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = TND 
+                }
+                SCS = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = SCS 
+                }
+                GCK = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = GCK 
+                }
+                JHF = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = JHF 
+                }
+                RAZ = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = RAZ 
+                }
+                ST9 = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = ST9 
+                }
+                SLA = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = SLA 
+                }
+                BAT = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = BAT 
+                }
+                DRE = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = DRE 
+                }
+                JGN = {
+                    every_owned_state = {
+                        add_core_of = ROOT
+                    }
+                }
+                annex_country = {
+                    target = JGN 
+                }
+                set_cosmetic_tag = BTK_89
+            }  
+        }
+    }
+    db_Bratishkia = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+        complete_effect ={
+            BRT = {
+                STR = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = STR 
+                }
+                LIX = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = LIX 
+                }
+                SHD = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = SHD 
+                }
+                TND = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = TND 
+                }
+                SCS = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = SCS 
+                }
+                GCK = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = GCK 
+                }
+                JHF = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = JHF 
+                }
+                RAZ = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = RAZ 
+                }
+                ST9 = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = ST9 
+                }
+                SLA = {
+                    every_owned_state = {
+                        add_core_of = BRT
+                    }
+                }
+                annex_country = {
+                    target = SLA 
+                }
+                set_cosmetic_tag = BRT_new_89
+            }  
+        }
+    }
+    db_Drekovia = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+        complete_effect ={
+            DRE = {
+                BAT = {
+                    every_owned_state = {
+                        add_core_of = DRE
+                    }
+                }
+                annex_country = {
+                    target = BAT 
+                }
+                CHB = {
+                    every_owned_state = {
+                        add_core_of = DRE
+                    }
+                }
+                annex_country = {
+                    target = CHB 
+                }
+                FFL = {
+                    every_owned_state = {
+                        add_core_of = DRE
+                    }
+                }
+                annex_country = {
+                    target = FFL 
+                }
+                NEK = {
+                    every_owned_state = {
+                        add_core_of = DRE
+                    }
+                }
+                annex_country = {
+                    target = NEK 
+                }
+                LOM = {
+                    every_owned_state = {
+                        add_core_of = DRE
+                    }
+                }
+                annex_country = {
+                    target = LOM 
+                }
+                set_cosmetic_tag = DRE_EMPIRE
+            }  
+        }
+    }
+    db_Taturzha = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+    }
+}

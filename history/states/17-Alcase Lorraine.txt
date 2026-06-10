@@ -1,0 +1,29 @@
+state={
+	id=17
+	name="STATE_17"
+	
+	history={
+		owner = SCS
+	add_core_of = SCS
+		victory_points = {
+			9642 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 5
+		}
+		#add_core_of = FRA
+	}
+	
+	resources={
+		steel=28.000
+	}
+	provinces={
+		698 3646 3666 6668 6698 9642 9658 11488 11642 13492
+	}
+	manpower=1517500
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=4.000
+}

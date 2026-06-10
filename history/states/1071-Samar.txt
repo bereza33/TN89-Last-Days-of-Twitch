@@ -1,0 +1,22 @@
+state={
+	id=1071
+	name="Samar"
+
+	history = {
+		owner = SPK
+	add_core_of = SPK
+		#add_core_of = UKR
+		#add_core_of = SOV
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		453 472 486 9463 9479 11452 
+	}
+	manpower=345356
+	buildings_max_level_factor=1.000
+	state_category = large_town
+	local_supplies=0.000
+}

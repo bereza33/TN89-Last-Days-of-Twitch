@@ -1,0 +1,21 @@
+state={
+	id=1259
+	name="Western Sahara"
+	
+	history={
+		#add_core_of = WES
+		owner = STN
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	
+	provinces={
+		13639 13642 7979
+	}
+	manpower=45311
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

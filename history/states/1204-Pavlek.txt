@@ -1,0 +1,23 @@
+state={
+	id=1204
+	name="Pavlek"
+
+
+	history={
+		owner = MDS
+	add_core_of = MDS
+		#add_core_of = GER
+		#add_core_of = PRE
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+
+	provinces={
+		3380 6402 11245
+	}
+	manpower=64264
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,18 @@
+version="0.1.3"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Map"
+	"National Focuses"
+	"Sound"
+	"Ideologies"
+	"Graphics"
+}
+name="tn89-dev"
+picture="thumbnail.png"
+replace_path="gfx/loadingscreens"
+replace_path="common/countries"
+replace_path="map/strategicregions"
+replace_path="map"
+supported_version="1.17.*"

@@ -1,0 +1,27 @@
+state={
+	id=1296
+	name="Belle"
+	
+	history = {
+
+		owner = GNS
+	add_core_of = GNS
+		#add_core_of = FRA
+
+		buildings = {
+			infrastructure = 2
+			13760 = {
+				naval_base = 2
+			}
+		}
+
+	}
+	
+	provinces={
+		13760
+	}
+	manpower=92311
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

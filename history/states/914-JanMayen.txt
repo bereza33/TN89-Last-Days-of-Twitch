@@ -1,0 +1,19 @@
+state = { # Jan Mayen
+	id = 914
+	name = "STATE_914"
+
+	impassable = yes
+
+	manpower = 10
+	state_category = tiny_island
+	history = {
+		owner = ZUS
+	}
+
+
+	provinces = {
+		13058 13506 13513
+	}
+	
+	local_supplies=0.000
+}

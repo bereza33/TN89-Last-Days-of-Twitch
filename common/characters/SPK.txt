@@ -1,0 +1,16 @@
+characters = {
+    SPK_Spokoynich = {
+        name=ch_Spokoynich
+        portraits={
+            civilian = {
+                large="GFX_portrait_SPK_Spokoynich"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = SPK_desc
+        }
+    }
+}

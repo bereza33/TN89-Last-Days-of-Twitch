@@ -1,0 +1,16 @@
+characters = {
+    BRT_Bratishkin = {
+        name=ch_Bratishkin
+        portraits={
+            civilian = {
+                large="GFX_portrait_BRT_Bratishkin"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = BRT_desc
+        }
+    }
+}

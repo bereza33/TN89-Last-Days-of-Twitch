@@ -1,0 +1,228 @@
+DRE_form_cat = {
+    DRE_form_empire = {
+        icon = generic_form_nation
+		#picture = GFX_decision_cat_picture_form_greater_greece
+		
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+        	base = 20
+    	}
+        allowed = {
+			original_tag = DRE
+		}
+	
+		available = {
+			is_subject = no
+			# --- DRE ---
+			custom_trigger_tooltip = {
+				tooltip = DRE_reform_XX_DRE
+				controls_state = 4
+				controls_state = 39
+				controls_state = 102
+				controls_state = 152
+				controls_state = 153
+				controls_state = 848
+				controls_state = 850
+				controls_state = 972
+				controls_state = 976
+				controls_state = 1282
+				controls_state = 1283
+			}
+
+			# --- CHB ---
+			custom_trigger_tooltip = {
+				tooltip = DRE_reform_XX_CHB
+				controls_state = 43
+				controls_state = 70
+				controls_state = 71
+				controls_state = 155
+				controls_state = 664
+				controls_state = 973
+				controls_state = 974
+				controls_state = 975
+				controls_state = 1212
+				controls_state = 1293
+				controls_state = 1294
+				controls_state = 1295
+			}
+
+			# --- BAT ---
+			custom_trigger_tooltip = {
+				tooltip = DRE_reform_XX_BAT
+				controls_state = 9
+				controls_state = 69
+				controls_state = 74
+				controls_state = 75
+			}
+
+			# --- LOM ---
+			custom_trigger_tooltip = {
+				tooltip = DRE_reform_XX_LOM
+				controls_state = 84
+			}
+
+			# --- NEK ---
+			custom_trigger_tooltip = {
+				tooltip = DRE_reform_XX_NEK
+				controls_state = 160
+				controls_state = 163
+				controls_state = 736
+				controls_state = 852
+				controls_state = 853
+				controls_state = 1048
+				controls_state = 1064
+				controls_state = 1073
+				controls_state = 1217
+			}
+
+			# --- FFL ---
+			custom_trigger_tooltip = {
+				tooltip = DRE_reform_XX_FFL
+				controls_state = 45
+				controls_state = 103
+				controls_state = 104
+				controls_state = 109
+				controls_state = 804
+				controls_state = 1220
+				controls_state = 1221
+				controls_state = 1226
+			}
+
+		}
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 4
+				state = 9
+				state = 39
+				state = 43
+				state = 45
+				state = 69
+				state = 70
+				state = 71
+				state = 73
+				state = 74
+				state = 75
+				state = 76
+				state = 82
+				state = 83
+				state = 84
+				state = 102
+				state = 103
+				state = 104
+				state = 109
+				state = 152
+				state = 153
+				state = 154
+				state = 155
+				state = 160
+				state = 163
+				state = 664
+				state = 736
+				state = 764
+				state = 804
+				state = 848
+				state = 850
+				state = 852
+				state = 853
+				state = 972
+				state = 973
+				state = 974
+				state = 975
+				state = 976
+				state = 1048
+				state = 1064
+				state = 1073
+				state = 1212
+				state = 1217
+				state = 1220
+				state = 1221
+				state = 1226
+				state = 1282
+				state = 1283
+				state = 1285
+				state = 1286
+				state = 1287
+				state = 1292
+				state = 1293
+				state = 1294
+				state = 1295
+			}
+		}
+	
+		visible = {
+			original_tag = DRE
+		}
+        complete_effect ={
+			hidden_effect = {
+				custom_effect_tooltip = DRE_form_empire_effect
+				DRE = { every_owned_state = { add_core_of = DRE } }
+
+			}
+
+            set_cosmetic_tag = DRE_EMPIRE
+			mark_focus_tree_layout_dirty = yes
+        }
+    }
+	DRE_war_BAT = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			BAT = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	DRE_war_CHB = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			CHB = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	DRE_war_NEK = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			NEK = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	DRE_war_LOM = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			LOM = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+	DRE_war_FFL = {
+		icon = generic_demand_territory
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			FFL = { country_event = { id = script.1 } }
+		}
+		ai_will_do = {
+        	base = 5
+    	}
+	}
+
+}

@@ -1,0 +1,22 @@
+Col_cat = {
+
+    icon = GFX_decision_category_border_conflicts
+    priority = 16
+
+    allowed = {
+        
+    }
+
+    visible = {
+       OR = {
+            has_cosmetic_tag =BRT_new_89
+            has_cosmetic_tag =DRE_EMPIRE
+            has_cosmetic_tag =GNS_empire
+            has_cosmetic_tag =ITA_formable
+            has_cosmetic_tag =MZL_chikenbekonia
+            has_cosmetic_tag =PYA_hype
+            has_cosmetic_tag =RUS_formable
+            has_cosmetic_tag =STN_great_gondurass        
+        }
+    }
+}

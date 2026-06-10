@@ -1,0 +1,16 @@
+characters = {
+    MAF_Mafanya = {
+        name=ch_Mafanya
+        portraits={
+            civilian = {
+                large="GFX_portrait_MAF_Mafanya"
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            traits = { # 
+            }
+            desc = MAF_desc
+        }
+    }
+}

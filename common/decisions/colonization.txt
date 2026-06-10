@@ -1,0 +1,280 @@
+Col_cat = {
+    Col_random_state_africa = {
+        icon = generic_form_nation
+        days_remove = 10
+        ai_will_do = {
+        	base = 0
+    	}
+        allowed = {
+		}
+        visible = {
+            CAF = {
+                any_owned_state = {
+                    is_coastal = yes
+                }
+            }
+            NOT = {
+                ROOT = {
+                    any_owned_state = {
+                        is_core_of = CAF
+                    }
+                }
+            }
+            has_war = no
+        }
+        available = {
+			is_subject = no
+        }
+
+        remove_effect = {
+            ROOT = {
+                random_state = {
+                    limit = {
+                        is_coastal = yes
+                        is_island_state = no
+                        is_owned_by = CAF
+                    }
+                    transfer_state_to = ROOT
+                }
+            }
+        }
+    }
+
+    Col_random_state_oceania = {
+        icon = generic_form_nation
+        days_remove = 10
+        ai_will_do = {
+        	base = 0
+    	}
+        allowed = {
+		}
+        visible = {
+            COC = {
+                any_owned_state = {
+                    is_coastal = yes
+                }
+            }
+            NOT = {
+                ROOT = {
+                    any_owned_state = {
+                        is_core_of = COC
+                    }
+                }
+            }
+            has_war = no
+        }
+        available = {
+			is_subject = no
+        }
+
+        remove_effect = {
+            ROOT = {
+                random_state = {
+                    limit = {
+                        is_coastal = yes
+                        is_core_of = COC
+                        is_owned_by = COC
+                    }
+                    transfer_state_to = ROOT
+                }
+            }
+        }
+    }
+
+    Col_neighbour_state_africa = {
+        icon = generic_form_nation
+        days_remove = 3
+        state_target = yes
+        ai_will_do = {
+        	base = 0
+    	}
+        allowed = {
+		}
+        visible = {
+            any_owned_state = {
+                is_core_of = CAF
+            }
+            has_war = no
+        }
+        available = {
+			is_subject = no
+        }
+
+        target_trigger = {
+            FROM = {
+                is_owned_and_controlled_by = CAF
+                OR = {
+                    any_neighbor_state = {
+                        is_owned_by = ROOT
+                    }
+                    AND = {
+                        is_island_state = yes
+                        is_owned_and_controlled_by = CAF
+                    }
+                    state = 543
+                }
+            }
+        }
+        
+
+        remove_effect = {
+            FROM = {
+                transfer_state_to = ROOT
+            }    
+        }
+    }
+
+    Col_neighbour_state_oceania = {
+        icon = generic_form_nation
+        days_remove = 3
+        state_target = yes
+        ai_will_do = {
+        	base = 0
+    	}
+        allowed = {
+		}
+        visible = {
+            ROOT = {
+                any_owned_state = {
+                    is_core_of = COC
+                }
+            }
+            has_war = no
+        }
+        available = {
+			is_subject = no
+        }
+
+        target_trigger = {
+            FROM = {
+                is_owned_and_controlled_by = COC
+                OR = {
+                    any_neighbor_state = {
+                        is_owned_by = ROOT
+                    }
+                    AND = {
+                        is_island_state = yes
+                        is_owned_and_controlled_by = COC
+                    }
+                    state = 635
+                    state = 647
+                    state = 629
+                    state = 636
+                    state = 634
+                }
+            }
+        }
+        
+
+        remove_effect = {
+            FROM = {
+                transfer_state_to = ROOT
+                if = {
+                    limit = {
+                        state = 517
+                    }
+                    518 ={
+                        transfer_state_to = ROOT
+                    }
+                }
+                else_if = {
+                    limit = {
+                        state = 624
+                    }
+                    628 ={
+                        transfer_state_to = ROOT
+                    }
+                    626 ={
+                        transfer_state_to = ROOT
+                    }
+                }
+            }    
+        }
+    }
+
+    Col_neighbour_state_war = {
+        icon = generic_form_nation
+        days_remove = 3
+        state_target = yes
+        ai_will_do = {
+        	base = 0
+    	}
+        allowed = {
+		}
+        visible = {
+            ROOT = {
+                has_border_war = no
+                any_owned_state = {
+                    OR = {
+                        is_core_of = CAF
+                        is_core_of = COC
+                    }
+                }
+                any_owned_state = {
+                    any_neighbor_state = {
+                        OR = {
+                            AND = { 
+                                is_core_of = CAF
+                                NOT = { is_owned_and_controlled_by = CAF }
+                            }
+                            AND = { 
+                                is_core_of = COC
+                                NOT = { is_owned_and_controlled_by = COC }
+                            }
+                        }
+                    }   
+                }
+            }
+            has_war = no
+        }
+        available = {
+			is_subject = no
+        }
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    is_core_of = CAF
+                    is_core_of = COC
+                }
+                NOT = { is_owned_and_controlled_by = CAF }
+                NOT = { is_owned_and_controlled_by = COC }
+                NOT = { is_owned_and_controlled_by = ROOT }
+                any_neighbor_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        remove_effect = {
+            FROM = {
+                set_state_flag = defender_state_@ROOT
+                random_neighbor_state = { 
+                    limit = {
+                        is_owned_and_controlled_by = ROOT
+                    }
+                    save_event_target_as = attacker_state
+                }
+            }
+            start_border_war = {
+                change_state_after_war = no
+                attacker = {
+                    state = event_target:attacker_state
+                    num_provinces = 3
+                    on_win = col.1
+                    on_lose = col.2
+                    on_cancel = col.3
+                    modifier = 0.1
+                    dig_in_factor = 0
+                    terrain_factor = 0
+                }	
+                defender = {
+                    state = FROM
+                    num_provinces = 3
+                    on_win = col.4
+                    on_lose = col.5
+                    on_cancel = col.3
+                }
+            }
+        }
+    }
+}

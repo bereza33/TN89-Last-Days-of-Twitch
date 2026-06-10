@@ -1,0 +1,77 @@
+ideas = {
+    country = {
+        low_auditory_instability = {
+            removal_cost = -1
+            picture = generic_army_problems
+
+            available = {
+                OR = {
+                    stream_gaming > 59
+                    stream_chatting > 59 
+                    stream_irl > 59 
+                    stream_creative > 59 
+                }
+            }
+
+            cancel = {
+                OR = {
+                    stream_gaming < 60
+                    stream_chatting < 60 
+                    stream_irl < 60 
+                    stream_creative < 60 
+                }
+            }
+        }
+
+        auditory_instability = {
+            removal_cost = -1
+            picture = generic_army_problems
+
+            available = {
+                OR = {
+                    stream_gaming > 79
+                    stream_chatting > 79 
+                    stream_irl > 79 
+                    stream_creative > 79 
+                }
+            }
+
+            cancel = {
+                OR = {
+                    stream_gaming < 80
+                    stream_chatting < 80 
+                    stream_irl < 80
+                    stream_creative < 80
+                }
+            }
+        }
+		
+		Generic_our_army = {
+            removal_cost = -1
+            picture = generic_license_production
+
+        available = {
+        }
+			
+		modifier = {
+		max_planning_factor = 0.1
+		conscription = 0.005
+			}
+        }
+		
+	    Generic_our_army_1 = {
+            removal_cost = -1
+            picture = generic_license_production
+
+        available = {
+        }
+			
+		modifier = {
+		max_planning_factor = 0.1
+		conscription = 0.005
+		army_attack_factor = 0.05
+		
+			}
+        }
+    }
+}
