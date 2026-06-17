@@ -11,8 +11,8 @@ state={
 			12857 1
 		}
 
-		owner = STN
-	add_core_of = STN
+		owner = GON
+	add_core_of = GON
 		#add_core_of = MOR
 		buildings = {
 			infrastructure = 1

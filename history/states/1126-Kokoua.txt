@@ -1,0 +1,22 @@
+state={
+	id=1126
+	name="Kokoua"
+
+	history={
+		owner = ZUS
+		#add_core_of = RCG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		3109 
+	}
+	manpower=54622
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

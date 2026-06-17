@@ -11,9 +11,8 @@ state = {
 	state_category = town
 
 	history = {
-		add_core_of = COC
 
-		owner = COC
+		owner = ZUS
 
 		buildings = {
 

@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = STN
+		owner = GON
 		#add_core_of = MOR
 		#add_core_of = RIF
 		victory_points = {

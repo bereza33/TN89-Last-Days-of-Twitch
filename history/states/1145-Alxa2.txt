@@ -1,0 +1,26 @@
+state={
+	id=1145
+	name="Inner Mongolia"
+
+	history={
+		owner = ZUS
+		buildings = {
+			infrastructure = 2
+		}
+		#add_core_of = NSI
+		#add_core_of = PRC
+		#add_core_of = CHI
+
+		victory_points = {
+			8127 2 #Yinchuan
+		}
+		
+	}
+
+	provinces={
+		7727 8102 10770  
+	}
+	manpower=684543
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

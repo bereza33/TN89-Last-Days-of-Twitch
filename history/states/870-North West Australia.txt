@@ -5,11 +5,10 @@ state={
 		2201 5207 8152 8209 8247 10937 10958 11016 12993 
 	}
 	history = {
-		add_core_of = COC
 		buildings = {
 			infrastructure = 1
 		}
-		owner = COC
+		owner = ZUS
 		#add_core_of = AST
 	}
 	state_category = wasteland

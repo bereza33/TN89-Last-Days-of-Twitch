@@ -1,0 +1,22 @@
+state={
+	id=1220
+	name="Lankaran"
+
+	history={
+		owner = PWG
+	add_core_of = PWG
+		buildings = {
+			infrastructure = 2
+		}
+		#add_core_of = SOV
+		#add_core_of = AZR
+		
+	}
+
+	provinces={
+		4473 12434 
+	}
+	manpower=243543
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

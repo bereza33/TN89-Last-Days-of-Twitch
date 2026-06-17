@@ -3,7 +3,7 @@ state={
 	name="STATE_287"
 
 	history={
-		owner = ZUB
+		owner = ZUS
 		#add_core_of = SIK
 		#add_core_of = TUG
 		#add_core_of = CHI

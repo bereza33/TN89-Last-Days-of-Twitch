@@ -10,7 +10,7 @@ state = {
 	state_category = town
 
 	history={
-		owner = ISD
+		owner = ZUS
 		victory_points = {
 			957 15
 		}

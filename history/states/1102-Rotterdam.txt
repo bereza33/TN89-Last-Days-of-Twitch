@@ -1,0 +1,35 @@
+state={
+	id=1102
+	name="STATE_1038"
+	
+	history={
+		owner = LGD
+	add_core_of = LGD
+		#add_core_of = HOL
+		victory_points = {
+			9498 20 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
+			9498 = {
+				naval_base = 10
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		9498 11456 
+	}
+	manpower=2343422
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

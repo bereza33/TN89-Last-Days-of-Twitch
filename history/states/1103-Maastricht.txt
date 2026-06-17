@@ -1,0 +1,26 @@
+state={
+	id=1103
+	name="STATE_1039"
+	
+	history={
+		owner = EXD
+		add_core_of = EXD
+
+		victory_points = {
+			11562 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	
+	provinces={
+		6500 11562 
+	}
+	manpower=324344
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

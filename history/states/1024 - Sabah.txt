@@ -12,9 +12,8 @@ state = {
 	state_category = rural
 
 	history = {
-		add_core_of = COC
 
-		owner = COC
+		owner = ZUS
 
 		victory_points = {
 			10199 2 # Sandakan

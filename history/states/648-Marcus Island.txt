@@ -6,8 +6,7 @@ state=
 	manpower=42
 	history=
 	{
-		add_core_of = COC
-		owner = COC
+		owner = ZUS
 		#add_core_of = GUM
 		buildings = {
 			infrastructure = 2

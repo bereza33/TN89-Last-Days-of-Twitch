@@ -7,8 +7,8 @@ state = {
 	state_category = city
 	history = {
 
-		owner = MDS
-	add_core_of = MDS
+		owner = HDP
+	add_core_of = HDP
 		#add_core_of = POL
 		#add_claim_by = PRE
 

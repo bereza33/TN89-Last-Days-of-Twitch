@@ -1,0 +1,27 @@
+state={
+	id=1270
+	name="STATE_1010"
+	
+	history={
+		victory_points = {
+			1205 1
+		}
+
+		
+		owner = EXL
+	add_core_of = EXL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		#add_core_of = GRE
+	}
+	
+	provinces={
+		1205 11786 11895 12001 
+	}
+	manpower=69553
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=4.000
+}

@@ -5,8 +5,7 @@ state = {
 	state_category = pastoral
 
 	history = {
-		add_core_of = CAF
-		owner = CAF
+		owner = ZUS
 		#add_core_of = SUD
 		buildings = {
 			infrastructure = 2

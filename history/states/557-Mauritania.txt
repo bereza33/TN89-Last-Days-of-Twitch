@@ -3,7 +3,7 @@ state={
 	name="STATE_557"
 	
 	history={
-		owner = CAF
+		owner = ZUS
 		#add_core_of = MRT
 		victory_points = {
 			5034 1

@@ -9,9 +9,7 @@ state = {
 	history = {
 
 		owner = STR
-	add_core_of = STR
-		#add_core_of = GER
-		#add_core_of = MEK
+		add_core_of = STR
 
 		victory_points = {
 			321 5 # Rostocj

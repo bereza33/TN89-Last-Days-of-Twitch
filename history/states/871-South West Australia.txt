@@ -5,11 +5,10 @@ state={
 		1526 2191 8200 10949 10969 10997 11011 12948 12962 12976 12990 
 	}
 	history = {
-		add_core_of = COC
 		buildings = {
 			infrastructure = 1
 		}
-		owner = COC
+		owner = ZUS
 		#add_core_of = AST
 	}
 	state_category = pastoral

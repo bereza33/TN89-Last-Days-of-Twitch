@@ -1,0 +1,25 @@
+state={
+	id=1113
+	name="STATE_1051"
+
+	history={
+		owner = ZUS
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#	7843 1 #Ulaangom
+		#}
+		#add_core_of = SIK
+		#add_core_of = MON
+		#add_core_of = CHI
+	}
+
+	provinces={
+		4751 7870 
+	}
+	manpower=35524
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

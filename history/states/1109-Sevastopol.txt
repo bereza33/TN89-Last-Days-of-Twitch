@@ -1,0 +1,48 @@
+state={
+	id=1109
+	name="Sevastopol"
+
+	history = {
+
+		owner = MZL
+	add_core_of = MZL
+
+		victory_points = {
+			3686 20 # Sevastopol
+		}
+
+		buildings = {
+
+			infrastructure = 3
+			dockyard = 1
+			air_base = 3
+
+			3686 = {
+				naval_base = 10
+				coastal_bunker = 3
+			}
+			set_demilitarized_zone = yes
+			
+		}
+
+		#add_core_of = SOV
+		#add_core_of = CRI
+
+		1939.1.1 = {
+			buildings = {
+				dockyard = 2
+				3686 = {
+					naval_facility = 1 # Sevastopol Naval Facilties
+				}
+			}
+		}
+	}
+
+	provinces={
+		3686
+	}
+	manpower=1235356
+	buildings_max_level_factor=1.000
+	state_category = city
+	local_supplies=0.000
+}

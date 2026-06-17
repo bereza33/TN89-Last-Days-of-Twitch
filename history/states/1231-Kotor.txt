@@ -1,0 +1,22 @@
+state={
+	id=1231
+	name="Kotor"
+
+	history = {
+		owner = KZY
+	add_core_of = KZY
+		buildings = {
+			infrastructure = 3
+		}
+		#add_core_of = YUG
+		#add_core_of = MNT
+
+	}
+
+	provinces={
+		937 6913
+	}
+	manpower=243543
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -6,8 +6,8 @@ state = {
 
 	history = {
 
-		owner = BRT
-	add_core_of = BRT
+		owner = JGN
+	add_core_of = JGN
 		#add_core_of = GER
 		#add_core_of = PRE
 		
@@ -20,13 +20,9 @@ state = {
 			industrial_complex = 2
 			6332 = {
 				bunker = 1
-
+				naval_base = 5
 			}
 			anti_air_building = 2
-			6332 = {
-				naval_base = 5
-
-			}
 			air_base = 6
 		}
 		

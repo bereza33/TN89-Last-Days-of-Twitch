@@ -1,0 +1,25 @@
+state={
+	id=1276
+	name="STATE_1016"
+	
+	history = {
+		owner = PRD
+	add_core_of = PRD
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = YUG
+		#add_core_of = KOS
+		#add_core_of = SER
+
+	}
+	
+	provinces={
+		9890 
+	}
+	manpower=230345
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

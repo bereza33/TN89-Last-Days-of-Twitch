@@ -7,8 +7,8 @@ state={
 		#victory_points = {
 		#	6483 1
 		#}
-		owner = MDS
-	add_core_of = MDS
+		owner = HDP
+	add_core_of = HDP
 		buildings = {
 			infrastructure = 3
 			air_base = 3

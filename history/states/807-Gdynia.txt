@@ -7,15 +7,9 @@ state = {
 
 	history = {
 
-		owner = MDS
-	add_core_of = MDS
-		#add_core_of = POL
-		#add_core_of = KSH
-		#add_claim_by = PRE
+		owner = HDP
+		add_core_of = HDP
 
-		victory_points = {
-			3295 5 # Torun
-		}
 
 		victory_points = {
 			279 1 # Bydgoszcz
@@ -26,10 +20,6 @@ state = {
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 2
-		}
-		
-		1938.3.12 = {
-			#add_claim_by = GER
 		}
 	}
 

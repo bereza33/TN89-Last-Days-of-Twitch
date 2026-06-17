@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = STN
+		owner = GON
 		#add_claim_by = WES
 		buildings = {
 			infrastructure = 1

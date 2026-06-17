@@ -5,7 +5,7 @@ state={
 		4325 9939 
 	}
 	history={
-		owner = ZUB
+		owner = ZUS
 		#add_core_of = CHI
 		#add_core_of = PRC
 		buildings = {

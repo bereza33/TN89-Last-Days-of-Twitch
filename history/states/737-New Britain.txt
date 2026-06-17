@@ -3,9 +3,8 @@ state={
 	name="STATE_737"
 
 	history={
-		add_core_of = COC
 		#add_core_of = PNG
-		owner = COC
+		owner = ZUS
 		buildings = {
 			infrastructure = 1
 			air_base = 1

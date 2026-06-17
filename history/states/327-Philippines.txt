@@ -11,8 +11,7 @@ state=
 	state_category = town
 	history=
 	{
-		add_core_of = COC
-		owner = COC
+		owner = ZUS
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

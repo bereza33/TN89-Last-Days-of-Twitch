@@ -13,8 +13,7 @@ state={
 	}
 
 	history={
-		add_core_of = CAF
-		owner = CAF
+		owner = ZUS
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

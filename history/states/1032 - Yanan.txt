@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = ZUB
+		owner = ZUS
 
 		victory_points = {
 			8049 3 # Yanan

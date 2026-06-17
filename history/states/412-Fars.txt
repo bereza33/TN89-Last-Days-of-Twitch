@@ -7,7 +7,7 @@ state={
 
 	history = {
 
-		owner = HSP
+		owner = ZUS
 		#add_core_of = PER
 
 		victory_points = {

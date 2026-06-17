@@ -1,0 +1,22 @@
+state={
+	id=1230
+	name="Vranje"
+
+	history = {
+		owner = MZL
+	add_core_of = MZL
+		buildings = {
+			infrastructure = 3
+		}
+		#add_core_of = YUG
+		#add_core_of = SER
+		#add_claim_by = BUL
+	}
+
+	provinces={
+		11832
+	}
+	manpower=243543
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

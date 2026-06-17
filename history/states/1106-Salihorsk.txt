@@ -8,8 +8,10 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		#add_core_of = POL
-		#add_core_of = BLR
+
+		victory_points = {
+			560 1
+		}
 	}
 
 	provinces={

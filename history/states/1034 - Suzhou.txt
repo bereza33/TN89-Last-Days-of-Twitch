@@ -9,6 +9,7 @@ state = {
 
 	history = {
 		owner = ZUB
+		add_core_of = ZUB
 
 		buildings = {
 			infrastructure = 2		

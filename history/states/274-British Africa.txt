@@ -11,9 +11,8 @@ state = {
 	} #Maganese
 
 	history = {
-		add_core_of = CAF
 
-		owner = CAF
+		owner = ZUS
 		#add_core_of = GHA
 
 		victory_points = {

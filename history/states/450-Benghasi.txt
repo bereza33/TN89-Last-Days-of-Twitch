@@ -2,7 +2,7 @@ state={
 	id=450
 	name="STATE_450"
 	history={
-		owner = MZL
+		owner = ZUS
 		#add_core_of = LBA
 	}
 	provinces={

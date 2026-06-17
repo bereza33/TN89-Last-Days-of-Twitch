@@ -1,0 +1,24 @@
+state={
+	id=1085
+	name="STATE_1021"
+	
+	history={
+		owner = LRB
+	add_core_of = LRB
+		buildings = {
+			infrastructure = 2
+
+		}
+		#add_core_of = SOV
+		#add_core_of = AZR
+
+	}
+	
+	provinces={
+		6997 
+	}
+	manpower=123434
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

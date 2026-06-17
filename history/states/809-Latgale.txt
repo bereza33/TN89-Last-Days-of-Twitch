@@ -5,19 +5,20 @@ state={
 
 	history={
 		owner = PCH
-	add_core_of = PCH
-		victory_points = {
-			310 3 #Daugavpils
-		}
-		victory_points = {
-			222 1 #Rezekne
-		}
+		add_core_of = PCH
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		#add_core_of = LAT
+
+		victory_points = {
+			6222 3 #Jelgava
+		}
+		victory_points = {
+			3255 1 #Jekabpils
+		}
 
 	}
 

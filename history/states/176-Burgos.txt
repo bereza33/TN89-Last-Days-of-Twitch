@@ -3,8 +3,8 @@ state={
 	name="STATE_176"
 
 	history={
-		owner = STN
-	add_core_of = STN
+		owner = GON
+	add_core_of = GON
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1

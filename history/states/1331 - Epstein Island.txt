@@ -1,0 +1,23 @@
+state={
+	id=1331
+	name="Остров Эпштейна"
+
+	history={
+		owner = GON
+
+		buildings = {
+			infrastructure = 3
+		}
+	
+		victory_points = {
+			13765 1 # Kherson
+		}
+	}
+
+	provinces={
+		13765
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

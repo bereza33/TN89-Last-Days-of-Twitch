@@ -1,0 +1,16 @@
+state={
+	id=1118
+	name="North Cameroons"
+	
+	history={
+		owner = ZUS
+		#add_core_of = NGA
+	}
+	provinces={
+		4889 8109
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

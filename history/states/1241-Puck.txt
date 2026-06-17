@@ -1,0 +1,30 @@
+state={
+	id=1241
+	name="Puck"
+
+	history={
+		owner = HDP
+	add_core_of = HDP
+		#add_core_of = POL
+		#add_core_of = KSH
+		#add_claim_by = PRE
+		buildings = {
+			infrastructure = 3
+			9263 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			9263 5 # Gdynia
+		}
+		
+	}
+
+	provinces={
+		9263
+	}
+	manpower=84264
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,24 @@
+state={
+	id=1154
+	name="Liechtenstein"
+	
+	history={
+		owner = GCK
+	add_core_of = GCK
+		#add_core_of = LIE
+		buildings = {
+			infrastructure = 3 
+		}
+		victory_points = {
+			13459 3
+		}
+	}
+
+	provinces={
+		13459
+	}
+	manpower=12556
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

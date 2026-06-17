@@ -1,0 +1,26 @@
+state={
+	id=1240
+	name="Grud"
+
+	history={
+		owner = HDP
+		add_core_of = HDP
+
+		buildings = {
+			infrastructure = 3
+
+		}
+
+		victory_points = {
+			3295 5 # Torun
+		}
+		
+	}
+
+	provinces={
+		3295 6347
+	}
+	manpower=84264
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

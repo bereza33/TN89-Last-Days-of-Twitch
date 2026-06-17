@@ -6,8 +6,7 @@ state={
 	state_category = small_island
 
 	history={
-		add_core_of = CAF
-		owner = CAF
+		owner = ZUS
 		buildings = {
 			infrastructure = 2
 			13018 = {

@@ -1,0 +1,25 @@
+state={
+	id=1289
+	name="Skardu"
+	
+	history={
+		#add_core_of = RAJ
+		#add_core_of = CHI
+		#add_core_of = SIK
+		#add_claim_by = PRC
+		#add_claim_by = PAK
+		owner = ZUS
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	
+	provinces={
+		13643
+	}
+	manpower=44311
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

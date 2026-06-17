@@ -5,14 +5,7 @@ state={
 	history = {
 
 		owner = TND
-	add_core_of = TND
-		#add_core_of = GER
-		#add_core_of = RHI
-		#add_core_of = PRE
-
-		victory_points = {
-			6469 10 # Essen
-		}
+		add_core_of = TND
 
 		victory_points = {
 			587 5 # Köln

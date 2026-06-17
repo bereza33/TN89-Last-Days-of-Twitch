@@ -1,0 +1,21 @@
+state={
+	id=1209
+	name="Ping"
+
+	history={
+		owner = ZUS
+		buildings = {
+			infrastructure = 3
+		}
+		#add_core_of = PRC
+		#add_core_of = CHI
+		
+	}
+
+	provinces={
+		3745 5025
+	}
+	manpower=743543
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

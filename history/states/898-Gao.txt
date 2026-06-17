@@ -5,8 +5,7 @@ state={
 	state_category = wasteland
 
 	history={
-		add_core_of = CAF
-		owner = CAF
+		owner = ZUS
 		#add_core_of = MLI
 		
 		buildings = {

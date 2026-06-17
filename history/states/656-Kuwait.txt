@@ -4,7 +4,7 @@ state={
 
 	history={
 		#add_core_of = KUW
-		owner = ART
+		owner = ZUS
 		victory_points = {
 			8085 1 
 		}

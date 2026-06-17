@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = ART
+		owner = ZUS
 		#add_core_of = IRQ
 
 		victory_points = {

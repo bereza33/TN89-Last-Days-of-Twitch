@@ -6,8 +6,7 @@ state={
 	name="STATE_545"
 
 	history={
-		add_core_of = CAF
-		owner = CAF
+		owner = ZUS
 		buildings = {
 			infrastructure = 2
 

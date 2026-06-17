@@ -7,7 +7,7 @@ state={
 		4893 10476 10896
 	}
 	history={
-		owner = HSP
+		owner = ZUS
 		#add_core_of = AFG
 	}
 	

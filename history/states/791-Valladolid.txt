@@ -6,8 +6,8 @@ state={
 		coal = 2
 	}
 	history={
-		owner = STN
-	add_core_of = STN
+		owner = GON
+	add_core_of = GON
 		victory_points = {
 			11825 3 
 		}

@@ -6,9 +6,8 @@ state = {
 	state_category = town
 
 	history = {
-		add_core_of = CAF
 
-		owner = CAF
+		owner = ZUS
 		#add_core_of = SAF
 
 		buildings = {
@@ -18,10 +17,10 @@ state = {
 
 			12589 = {
 				naval_base = 4
-			}
 
-			# Woodhead Dam
-			12589 = { dam = 1 }
+				# Woodhead Dam
+				dam = 1
+			}
 
 		}
 

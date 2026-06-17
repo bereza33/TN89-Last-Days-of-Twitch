@@ -6,9 +6,8 @@ state = {
 	manpower = 2145731
 
 	history = {
-		add_core_of = CAF
 
-		owner = CAF
+		owner = ZUS
 
 		
 		

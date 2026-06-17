@@ -19,8 +19,8 @@ state={
 		#victory_points = {
 		#	562 3
 		#}
-		owner = MDS
-	add_core_of = MDS
+		owner = HDP
+	add_core_of = HDP
 		buildings = {
 			infrastructure = 3
 		}

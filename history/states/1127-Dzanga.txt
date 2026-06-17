@@ -1,0 +1,22 @@
+state={
+	id=1127
+	name="Dzanga"
+
+	history={
+		owner = ZUS
+		#add_core_of = CAR
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		8078 11012 13699 13704
+	}
+	manpower=65735
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
