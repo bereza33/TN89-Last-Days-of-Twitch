@@ -1,0 +1,71 @@
+sub_units = {
+	spetsnaz = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 10	
+		default_morale = 0.4
+		manpower = 250
+		training_time = 100
+
+		#Misc Abilities
+		weight = 0.05
+		supply_consumption = 0.02
+		
+		entrenchment = 1
+		can_be_parachuted = no
+		
+		battalion_mult = {
+			category = category_light_infantry
+			entrenchment = 0.20
+			add = yes
+		}
+
+				
+		defense = 0.1
+		breakthrough = 0.5
+
+		# Support nerfs to combat abilities
+		soft_attack = 0.1
+
+		essential = {
+			infantry_equipment
+			support_equipment
+		}
+		
+		need = {
+			support_equipment = 10
+			infantry_equipment = 40
+		}
+
+		
+		urban = {
+			attack = 0.15   
+			defence = 0.15
+			movement = 0.1
+			initiative = 0.2 
+			entrenchment = 5
+		}
+	}
+}

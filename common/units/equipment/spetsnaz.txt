@@ -1,0 +1,14 @@
+#equipments = {
+#	spetsnaz = {
+#		year = 1936
+#		is_archetype = yes
+#		picture = archetype
+#		is_buildable = no
+#		type = support
+#		group_by = archetype
+#		interface_category = interface_category_land
+#
+#		build_cost_ic = 3.0
+#		reliability = 0.8
+#	}
+#}
