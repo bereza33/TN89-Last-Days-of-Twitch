@@ -23,17 +23,6 @@ idea_categories = {
 		ledger = hidden
 	}
 	
-	moderators = {
-		slot = moderator
-		slot = moderator
-		slot = moderator
-
-		ledger = civilian
-
-		cost = 200
-		removal_cost = 0
-	}
-	
 	government = {
 		slot = mobilization_laws
 		slot = trade_laws

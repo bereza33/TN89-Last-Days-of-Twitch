@@ -1,0 +1,22 @@
+SpriteTypes = {
+    spriteType = {
+		name = "GFX_HOI4_party"
+		texturefile = "gfx/texticons/parties_texticons/hoi4.dds"
+		legacy_lazy_load = no
+	}
+    spriteType = {
+		name = "GFX_CSGO_party"
+		texturefile = "gfx/texticons/parties_texticons/csgo.dds"
+		legacy_lazy_load = no
+	}
+    spriteType = {
+		name = "GFX_ANIME_party"
+		texturefile = "gfx/texticons/parties_texticons/anime.dds"
+		legacy_lazy_load = no
+	}
+    spriteType = {
+		name = "GFX_MINECRAFT_party"
+		texturefile = "gfx/texticons/parties_texticons/minecraft.dds"
+		legacy_lazy_load = no
+	}
+}

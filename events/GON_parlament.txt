@@ -1,0 +1,71 @@
+add_namespace = gonparlament
+
+country_event = {
+    id = gonparlament.1
+    title = gonparlament.1.t
+	desc = gonparlament.1.d
+    picture = GFX_report_event_baltic_entente_one
+
+    
+
+    option = {
+        name = gonparlament.1.a       
+        set_temp_variable = {
+            var = GON_support_hoi4_var_temp
+            value = 0.03
+        }
+        GON_add_support_hoi4 = yes
+
+        set_temp_variable = {
+            var = GON_support_csgo_var_temp
+            value = 0.03
+        }
+        GON_add_support_csgo = yes
+
+        set_temp_variable = {
+            var = GON_support_anime_var_temp
+            value = 0.03
+        }
+        GON_add_support_anime = yes
+
+        set_temp_variable = {
+            var = GON_support_minecraft_var_temp
+            value = 0.03
+        }    
+        GON_add_support_minecraft = yes
+    }
+}
+
+country_event = {
+    id = gonparlament.2
+    title = gonparlament.2.t
+	desc = gonparlament.2.d
+    picture = GFX_report_event_baltic_entente_one
+
+    option = {
+        name = gonparlament.2.a       
+        add_to_temp_variable = {
+            var = GON_support_hoi4_var_temp
+            value = 0.3
+        }
+        GON_add_support_hoi4 = yes
+
+        add_to_temp_variable = {
+            var = GON_support_csgo_var_temp
+            value = 0.3
+        }
+        GON_add_support_csgo = yes
+
+        add_to_temp_variable = {
+            var = GON_support_anime_var_temp
+            value = -0.1
+        }
+        GON_add_support_anime = yes
+
+        add_to_temp_variable = {
+            var = GON_support_minecraft_var_temp
+            value = -0.1
+        }    
+        GON_add_support_minecraft = yes
+    }
+}

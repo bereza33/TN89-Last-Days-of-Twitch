@@ -1,0 +1,421 @@
+defined_text = {
+	#Die Linke Text
+	name = GON_parlament_faction_hoi4_text
+	text = {
+		trigger = {
+			original_tag = GON
+		}
+		localization_key = GON_parlament_faction_hoi4_loc
+	}
+}
+
+defined_text = {
+	#Die Linke Text
+	name = GON_parlament_faction_csgo_text
+	text = {
+		trigger = {
+			original_tag = GON
+		}
+		localization_key = GON_parlament_faction_csgo_loc
+	}
+}
+
+defined_text = {
+	#Die Linke Text
+	name = GON_parlament_faction_anime_text
+	text = {
+		trigger = {
+			original_tag = GON
+		}
+		localization_key = GON_parlament_faction_anime_loc
+	}
+}
+
+defined_text = {
+	#Die Linke Text
+	name = GON_parlament_faction_minecraft_text
+	text = {
+		trigger = {
+			original_tag = GON
+		}
+		localization_key = GON_parlament_faction_minecraft_loc
+	}
+}
+
+
+
+defined_text = {
+	#hoi4 Allignment
+	name = GON_parlament_faction_hoi4_allignment_text
+	text = {
+		#Very Adversive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.2
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_very_adversive_loc
+	}
+	text = {
+		#Adversive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.2
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.4
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_adversive_loc
+	}
+	text = {
+		#Indifferent
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.4
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.6
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_indifferent_loc
+	}
+	text = {
+		#Supportive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.6
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_supportive_loc
+	}
+	text = {
+		#Very Supportive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.8
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = GON_faction_allignment_very_supportive_loc
+	}
+}
+
+defined_text = {
+	#csgo Allignment
+	name = GON_parlament_faction_csgo_allignment_text
+	text = {
+		#Very Adversive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.2
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_very_adversive_loc
+	}
+	text = {
+		#Adversive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.2
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.4
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_adversive_loc
+	}
+	text = {
+		#Indifferent
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.4
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.6
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_indifferent_loc
+	}
+	text = {
+		#Supportive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.6
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_supportive_loc
+	}
+	text = {
+		#Very Supportive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.8
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = GON_faction_allignment_very_supportive_loc
+	}
+}
+
+defined_text = {
+	#anime Allignment
+	name = GON_parlament_faction_anime_allignment_text
+	text = {
+		#Very Adversive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.2
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_very_adversive_loc
+	}
+	text = {
+		#Adversive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.2
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.4
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_adversive_loc
+	}
+	text = {
+		#Indifferent
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.4
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.6
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_indifferent_loc
+	}
+	text = {
+		#Supportive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.6
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_supportive_loc
+	}
+	text = {
+		#Very Supportive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.8
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = GON_faction_allignment_very_supportive_loc
+	}
+}
+
+defined_text = {
+	#minecraft Allignment
+	name = GON_parlament_faction_minecraft_allignment_text
+	text = {
+		#Very Adversive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.2
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_very_adversive_loc
+	}
+	text = {
+		#Adversive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.2
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.4
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_adversive_loc
+	}
+	text = {
+		#Indifferent
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.4
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.6
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_indifferent_loc
+	}
+	text = {
+		#Supportive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.6
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		localization_key = GON_faction_allignment_supportive_loc
+	}
+	text = {
+		#Very Supportive
+		trigger = {
+			original_tag = GON
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.8
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = GON_faction_allignment_very_supportive_loc
+	}
+}
+
+
+defined_text = {
+	#Very Supportive Text
+	name = GON_faction_allignment_very_supportive_text
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GON_faction_allignment_very_supportive_name
+	}
+}
+
+defined_text = {
+	#Supportive Text
+	name = GON_faction_allignment_supportive_text
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GON_faction_allignment_supportive_name
+	}
+}
+
+defined_text = {
+	#Indifferent Text
+	name = GON_faction_allignment_indifferent_text
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GON_faction_allignment_indifferent_name
+	}
+}
+
+defined_text = {
+	#Adversive Text
+	name = GON_faction_allignment_adversive_text
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GON_faction_allignment_adversive_name
+	}
+}
+
+defined_text = {
+	#Very Adversive Text
+	name = GON_faction_allignment_very_adversive_text
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = GON_faction_allignment_very_adversive_name
+	}
+}

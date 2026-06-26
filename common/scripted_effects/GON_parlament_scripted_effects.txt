@@ -1,0 +1,242 @@
+GON_add_support_hoi4 = {
+	custom_effect_tooltip = GON_add_support_hoi4_tooltip
+	add_to_variable = {
+		var = GON_support_hoi4_var
+		value = GON_support_hoi4_var_temp
+	}
+	clamp_variable = {
+		var = GON_support_hoi4_var
+		min = 0
+		max = 1
+	}
+	GER_bundestag_support_change = yes
+}
+
+GON_add_support_csgo = {
+	custom_effect_tooltip = GON_add_support_csgo_tooltip
+	add_to_variable = {
+		var = GON_support_csgo_var
+		value = GON_support_csgo_var_temp
+	}
+	clamp_variable = {
+		var = GON_support_csgo_var
+		min = 0
+		max = 1
+	}
+	GER_bundestag_support_change = yes
+}
+
+GON_add_support_anime = {
+	custom_effect_tooltip = GON_add_support_anime_tooltip
+	add_to_variable = {
+		var = GON_support_anime_var
+		value = GON_support_anime_var_temp
+	}
+	clamp_variable = {
+		var = GON_support_anime_var
+		min = 0
+		max = 1
+	}
+	GER_bundestag_support_change = yes
+}
+
+GON_add_support_minecraft = {
+	custom_effect_tooltip = GON_add_support_minecraft_tooltip
+	add_to_variable = {
+		var = GON_support_minecraft_var
+		value = GON_support_minecraft_var_temp
+	}
+	clamp_variable = {
+		var = GON_support_minecraft_var
+		min = 0
+		max = 1
+	}
+	GER_bundestag_support_change = yes
+}
+
+
+GER_bundestag_support_change = {
+	#Updates Bundestag Total Support
+	set_temp_variable = {
+		var = GON_support_parlament_total_var_temp
+		value = 0
+	}
+
+	#hoi4
+	set_temp_variable = {
+		var = GON_hoi4_support_parlament_var_temp
+		value = GON_support_hoi4_var
+	}
+	if = {
+		#Indifferent Or Lower
+		limit = {
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.6
+				compare = less_than
+			}
+		}
+		multiply_temp_variable = {
+			var = GON_hoi4_support_parlament_var_temp
+			value = 0
+		}
+	}
+	else_if = {
+		#Supportive
+		limit = {
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.6
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_hoi4_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		multiply_temp_variable = {
+			var = GON_hoi4_support_parlament_var_temp
+			value = 0.5
+		}
+	}
+	add_to_temp_variable = {
+		var = GON_support_parlament_total_var_temp
+		value = GON_hoi4_support_parlament_var_temp
+	}
+
+	#csgo
+	set_temp_variable = {
+		var = GON_csgo_support_parlament_var_temp
+		value = GON_support_csgo_var
+	}
+	if = {
+		#Indifferent Or Lower
+		limit = {
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.6
+				compare = less_than
+			}
+		}
+		multiply_temp_variable = {
+			var = GON_csgo_support_parlament_var_temp
+			value = 0
+		}
+	}
+	else_if = {
+		#Supportive
+		limit = {
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.6
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_csgo_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		multiply_temp_variable = {
+			var = GON_csgo_support_parlament_var_temp
+			value = 0.5
+		}
+	}
+	add_to_temp_variable = {
+		var = GON_support_parlament_total_var_temp
+		value = GON_csgo_support_parlament_var_temp
+	}
+
+	#anime
+	set_temp_variable = {
+		var = GON_anime_support_parlament_var_temp
+		value = GON_support_anime_var
+	}
+	if = {
+		#Indifferent Or Lower
+		limit = {
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.6
+				compare = less_than
+			}
+		}
+		multiply_temp_variable = {
+			var = GON_anime_support_parlament_var_temp
+			value = 0
+		}
+	}
+	else_if = {
+		#Supportive
+		limit = {
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.6
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_anime_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		multiply_temp_variable = {
+			var = GON_anime_support_parlament_var_temp
+			value = 0.5
+		}
+	}
+	add_to_temp_variable = {
+		var = GON_support_parlament_total_var_temp
+		value = GON_anime_support_parlament_var_temp
+	}
+
+	#minecraft
+	set_temp_variable = {
+		var = GON_minecraft_support_parlament_var_temp
+		value = GON_support_minecraft_var
+	}
+	if = {
+		#Indifferent Or Lower
+		limit = {
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.6
+				compare = less_than
+			}
+		}
+		multiply_temp_variable = {
+			var = GON_minecraft_support_parlament_var_temp
+			value = 0
+		}
+	}
+	else_if = {
+		#Supportive
+		limit = {
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.6
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = GON_support_minecraft_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		multiply_temp_variable = {
+			var = GON_minecraft_support_parlament_var_temp
+			value = 0.5
+		}
+	}
+	add_to_temp_variable = {
+		var = GON_support_parlament_total_var_temp
+		value = GON_minecraft_support_parlament_var_temp
+	}
+	
+	#Total
+	set_variable = {
+		var = GON_support_parlament_total_var
+		value = GON_support_parlament_total_var_temp
+	}
+}

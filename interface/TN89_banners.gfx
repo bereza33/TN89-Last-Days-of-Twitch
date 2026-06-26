@@ -1,0 +1,68 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Ideology_dark_maga"
+		texturefile = "gfx/texticons/banners/ideology/Ideology_dark_maga.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Ideology_ultraprogresivism"
+		texturefile = "gfx/texticons/banners/ideology/Ideology_ultraprogresivism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Ideology_nazitwicherism"
+		texturefile = "gfx/texticons/banners/ideology/Ideology_nazitwicherism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Ideology_razyeryonye_comuny"
+		texturefile = "gfx/texticons/banners/ideology/Ideology_razyeryonye_comuny.png"
+		legacy_lazy_load = no
+	}
+
+	#Update and Path Banners		
+	spriteType = {
+		name = "GFX_CHB_Mazelov_Path_banner"
+		texturefile = "gfx/texticons/banners/CHB_Mazelov_Path.png"
+		legacy_lazy_load = no
+	}		
+	spriteType = {
+		name = "GFX_CHB_VSRAP_Path_banner"
+		texturefile = "gfx/texticons/banners/CHB_VSRAP_Path.png"
+		legacy_lazy_load = no
+	}	
+	spriteType = {
+		name = "GFX_JGN_Schevcoc_Path_banner"
+		texturefile = "gfx/texticons/banners/PST_Schevcoc_Path.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_STN_Stint_liberal_Path_banner"
+		texturefile = "gfx/texticons/banners/STN_stint_liberal_Path.png"
+		legacy_lazy_load = no
+	}
+
+	
+
+	spriteType = {
+		name = "GFX_ZZZ_update_banner"
+		texturefile = "gfx/texticons/banners/update_banner.png"
+		legacy_lazy_load = no
+	}		
+	spriteType = {
+		name = "GFX_ZZZ_mini_update_banner"
+		texturefile = "gfx/texticons/banners/mini_update_banner.png"
+		legacy_lazy_load = no
+	}
+
+
+
+	#####################
+	# DECISIONS BANNERS #
+	#####################
+	spriteType = {
+		name = "GFX_GON_parlament_decision_category_banner"
+		texturefile = "gfx/texticons/banners/decision_category/gonparlament.png"
+		legacy_lazy_load = no
+	}
+}

@@ -1,0 +1,23 @@
+﻿l_russian:
+ GON_parlament_category: "Парламент Второй Республики"
+ GON_parlament_category_desc: "\n\n\n\n\n£GFX_GON_parlament_decision_category_banner\n\n\n\n\n\n\n\nГондурасия после войны - одна из самых демократических общин на всём твиче, и мы должным каким-то образом удовлетворить все части нашего народа и сохранить наши демократические ценности.\n\nПолитический ландшафт Второй Республики не претерпевал изменений в течение довольно долгого времени, а во время правления Стинтериуса II так вообще реприсирован. Но если мы будем придерживаться нашего курса, и мнение других, то сможем противостоять всему, что нас ожидает.\n\nС нашим парламентом мы можем мирно обсуждать проблемы внутри нашей страны и за ее пределами и общаться как с друзьями, так и с врагами, будем надеяться, что все останется мирным.\n\nОбщая Поддержка Парламента: [?GON_support_parlament_total_var|Y1%][GON_parlament_faction_hoi4_text][GON_parlament_faction_csgo_text][GON_parlament_faction_anime_text][GON_parlament_faction_minecraft_text]"
+ #Scripted Loc
+ GON_parlament_faction_hoi4_loc: "\n\nПоддержка £GFX_HOI4_party  §HХойщиков§!: [?GON_support_hoi4_var|Y1%] [GON_parlament_faction_hoi4_allignment_text]"
+ GON_parlament_faction_csgo_loc: "\n\nПоддержка £GFX_CSGO_party  §CCS'эров§!: [?GON_support_csgo_var|Y1%] [GON_parlament_faction_csgo_allignment_text]"
+ GON_parlament_faction_anime_loc: "\n\nПоддержка £GFX_ANIME_party  §RАнимешников§!: [?GON_support_anime_var|Y1%] [GON_parlament_faction_anime_allignment_text]"
+ GON_parlament_faction_minecraft_loc: "\n\nПоддержка £GFX_MINECRAFT_party  §GМайнкрафтеров§!: [?GON_support_minecraft_var|Y1%] [GON_parlament_faction_minecraft_allignment_text]"
+ GON_faction_allignment_very_supportive_loc: "($GON_faction_allignment_very_supportive_name$)"
+ GON_faction_allignment_supportive_loc: "($GON_faction_allignment_supportive_name$)"
+ GON_faction_allignment_indifferent_loc: "($GON_faction_allignment_indifferent_name$)"
+ GON_faction_allignment_adversive_loc: "($GON_faction_allignment_adversive_name$)"
+ GON_faction_allignment_very_adversive_loc: "($GON_faction_allignment_very_adversive_name$)"
+ GON_faction_allignment_very_supportive_name: "§GОчень Поддерживающие§!, Эффекты: §G100%§!"
+ GON_faction_allignment_supportive_name: "§GПоддерживающие§!, Эффекты: §G50%§!"
+ GON_faction_allignment_indifferent_name: "§LРавнодушные§!, Эффекты: §Y0%§!"
+ GON_faction_allignment_adversive_name: "§RАгрессивные§!, Эффекты: §R-50%§!"
+ GON_faction_allignment_very_adversive_name: "§RОчень Агрессивные§!, Эффекты: §R-100%§!"
+ GON_add_support_hoi4_tooltip: "Добавит Поддержки £GFX_HOI4_party  §HХойщикам§!: [?GER_support_die_linke_var_temp|=+2%]."
+ GON_add_support_csgo_tooltip: "Добавит Поддержки £GFX_CSGO_party  §CCS'эрам§!: [?GER_support_die_linke_var_temp|=+2%]."
+ GON_add_support_anime_tooltip: "Добавит Поддержки £GFX_ANIME_party  §RАнимешникам§!: [?GER_support_die_linke_var_temp|=+2%]."
+ GON_add_support_minecraft_tooltip: "Добавит Поддержки £GFX_MINECRAFT_party §GМайнкрафтерfам§!: [?GER_support_die_linke_var_temp|=+2%]."
+
